@@ -3,6 +3,7 @@ import { Snapline } from "@antv/x6-plugin-snapline";
 import { Clipboard } from "@antv/x6-plugin-clipboard";
 import { Selection } from "@antv/x6-plugin-selection";
 import { Keyboard } from "@antv/x6-plugin-keyboard";
+import { Transform } from "@antv/x6-plugin-transform";
 
 const __bindKeys = (graph: Graph) => {
   graph.bindKey("ctrl+c", () => {
@@ -99,6 +100,26 @@ const _initGraph = (graph: Graph) => {
     new Keyboard({
       enabled: true,
       global: true,
+    })
+  );
+  graph.use(
+    new Transform({
+      resizing: {
+        enabled: true,
+        minWidth: 200,
+        maxWidth: 500,
+        minHeight: 100,
+        maxHeight: 500,
+        orthogonal: false,
+        restrict: false,
+        preserveAspectRatio: false,
+      },
+      rotating: {
+        enabled: true,
+        grid() {
+          return 30;
+        },
+      },
     })
   );
   __bindKeys(graph);

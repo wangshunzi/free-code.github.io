@@ -46,9 +46,10 @@ const Login: TComponent<TInput, TOutput> = ({ node, graph }) => {
   );
 };
 
+Login.group = "业务组件";
 Login.shape = "login";
 
-Login.size = [300, 200];
+Login.size = [300, 180];
 
 Login.thumnail = <div className={style.thumnail}>登录组件</div>;
 

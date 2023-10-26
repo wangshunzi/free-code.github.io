@@ -4,8 +4,10 @@ import style from "./index.less";
 import { Button } from "antd";
 import { FreeClient } from "@/free-lib";
 import Login from "@/components/login";
-import ShowResult from "@/components/showResult";
+import PassThrough from "@/components/passThrough";
 import Transformer from "@/components/transformer";
+import Args from "@/components/args";
+import Api from "@/components/api";
 
 export default function Playground() {
   const stencilContainerRef = useRef<HTMLDivElement>(null);
@@ -20,7 +22,13 @@ export default function Playground() {
     );
 
     // 注册组件
-    freeClientRef.current.registerComponents([Login, ShowResult, Transformer]);
+    freeClientRef.current.registerComponents([
+      Login,
+      PassThrough,
+      Transformer,
+      Args,
+      Api,
+    ]);
   }, []);
 
   return (

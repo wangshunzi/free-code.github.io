@@ -7,8 +7,8 @@ export const PortsGroupConfig: TPorts = {
       attrs: {
         circle: {
           magnet: true,
-          stroke: "#8f8f8f",
-          r: 5,
+          stroke: "#d9d9d9",
+          r: 8,
         },
         text: {
           fontSize: 12,
@@ -21,8 +21,8 @@ export const PortsGroupConfig: TPorts = {
       attrs: {
         circle: {
           magnet: true,
-          stroke: "#8f8f8f",
-          r: 5,
+          stroke: "#595959",
+          r: 8,
         },
         text: {
           fontSize: 12,
@@ -46,7 +46,6 @@ export const PortsGroupConfig: TPorts = {
     },
   },
 };
-
 
 export const PortTemplate: { [key in TPortTemplateKey]: TPorts } = {
   empty: {
@@ -81,4 +80,3 @@ export const PortTemplate: { [key in TPortTemplateKey]: TPorts } = {
     ],
   },
 };
-

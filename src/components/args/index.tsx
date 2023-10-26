@@ -9,20 +9,17 @@ const PlaceholderThumnail = (content: string) => (
   <div className={style.thumnail}>{content}</div>
 );
 
-class Transformer extends GraphBaseComponent {
+class Args extends GraphBaseComponent {
   static group: string = "通用组件";
-  static shape: string = "transformer";
+  static shape: string = "args";
   static size: [number, number] = [300, 300];
-  static thumnail: ReactNode = PlaceholderThumnail("转换器");
+  static thumnail: ReactNode = PlaceholderThumnail("参数组件");
   static executor?:
     | ((input: any, extra?: { [key: string]: any }) => Promise<any>)
     | undefined = (input, extra) => {
-    if (extra?.handler) {
-      return Promise.resolve(extra.handler(input));
-    }
     return Promise.resolve(input);
   };
-  static ports?: TPorts = PortTemplate.full;
+  static ports?: TPorts = PortTemplate.onlyOutput;  
 
   componentDidMount(): void {}
   render() {
@@ -31,27 +28,27 @@ class Transformer extends GraphBaseComponent {
     return (
       <StatusWrapper status={data.status}>
         <div className={style.code}>
-          <div className={style.fixed}>{"(input: any) => {"}</div>
           <Input.TextArea
             onBlur={(e) => {
               const value = e.target.value;
-              if (value && value.trim().length > 0) {
-                node.setData({
-                  extra: {
-                    handler: new Function("input", value),
-                  },
-                });
+              let d;
+              try {
+                d = JSON.parse(value);
+              } catch (e) {
+                d = value;
               }
+              node.setData({
+                input: d,
+              });
             }}
             className={style.ta}
             bordered={false}
-            placeholder="请输入转换逻辑..."
+            placeholder="请输入流转参数..."
           />
-          <div className={style.fixed}>{"}"}</div>
         </div>
       </StatusWrapper>
     );
   }
 }
 
-export default Transformer;
+export default Args;

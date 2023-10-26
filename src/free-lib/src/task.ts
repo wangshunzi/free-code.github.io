@@ -16,7 +16,7 @@ const doNode = (
   }
   if (_info.executor) {
     _info
-      .executor(cell.data.input)
+      .executor(cell.data.input, cell.data.extra)
       .then((res: any) => {
         cell.setData({ status: "success", output: res });
         // 将结果，塞入next的input, 并执行下个后续节点
