@@ -99,6 +99,12 @@ const DndPane: React.FC<IDndPane> = ({ graph, callback }) => {
         style={{
           width: "calc(100% - 32px)",
           margin: "0 16px 16px 16px",
+          position: "sticky",
+          top: "16px",
+          boxShadow: "0 4px 8px 0px #ddd",
+          zIndex: 999,
+          borderRadius: "4px",
+          overflow: "hidden",
         }}
       />
       {!components || components.length == 0 ? (

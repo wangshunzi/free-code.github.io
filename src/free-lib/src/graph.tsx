@@ -49,13 +49,15 @@ const __bindKeys = (graph: Graph) => {
 
 const __bindEvent = (graph: Graph) => {
   graph.on("cell:mouseenter", ({ cell }) => {
-    if (!cell.isNode()) {
+    if (cell.isEdge()) {
       cell.addTools(["vertices", "segments"]);
     }
   });
 
   graph.on("cell:mouseleave", ({ cell }) => {
-    cell.removeTools();
+    if (cell.isEdge()) {
+      cell.removeTools();
+    }
   });
 
   graph.on("node:change:data", ({ node }) => {
@@ -91,7 +93,10 @@ const _initGraph = (graph: Graph) => {
       multiple: true,
       rubberband: true,
       movable: true,
+      rubberEdge: true,
       showNodeSelectionBox: true,
+      showEdgeSelectionBox: true,
+      strict: true,
       pointerEvents: "none",
       modifiers: ["alt"],
     })
@@ -137,7 +142,7 @@ export const createGraph = (container: HTMLDivElement) => {
       allowEdge: false,
       allowMulti: false,
       highlight: true,
-      router: "manhattan",
+      router: "orth",
       connector: "rounded",
       snap: true,
       createEdge() {
