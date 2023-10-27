@@ -11,8 +11,8 @@ const Group: TComponent<any, any> = ({ node, graph }) => {
   const rememberRef = useRef(open);
 
   useEffect(() => {
-    graph.on("node:change:size", () => {
-      if (rememberRef.current) {
+    graph.on("node:change:size", ({ cell }) => {
+      if (rememberRef.current && cell == node) {
         originSizeRef.current = node.getSize();
       }
     });
