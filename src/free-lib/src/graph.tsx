@@ -139,6 +139,7 @@ export const createGraph = (container: HTMLDivElement) => {
       highlight: true,
       router: "manhattan",
       connector: "rounded",
+      snap: true,
       createEdge() {
         return this.createEdge({
           attrs: {

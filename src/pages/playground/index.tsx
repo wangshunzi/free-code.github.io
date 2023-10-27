@@ -8,6 +8,7 @@ import PassThrough from "@/components/passThrough";
 import Transformer from "@/components/transformer";
 import Args from "@/components/args";
 import Api from "@/components/api";
+import ImageShow from "@/components/imageShow";
 
 export default function Playground() {
   const stencilContainerRef = useRef<HTMLDivElement>(null);
@@ -28,6 +29,7 @@ export default function Playground() {
       Transformer,
       Args,
       Api,
+      ImageShow,
     ]);
   }, []);
 

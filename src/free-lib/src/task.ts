@@ -24,8 +24,14 @@ const doNode = (
           node.next.forEach((n: Cell.Properties) => {
             const nc = graph.getCellById(n.id!);
             // 防止循环执行
-            if (nc.getData().status !== "pending") return;
-            nc.setData({ input: res });
+            const nextData = nc.getData();
+            if (nextData.status !== "pending") return;
+            // 重写 还是 merge
+            if (nextData.overwriteInput) {
+              nc.setData({ ...nextData, input: res }, { overwrite: true });
+            } else {
+              nc.setData({ input: res });
+            }
             doNode(n, graph, lib);
           });
         }

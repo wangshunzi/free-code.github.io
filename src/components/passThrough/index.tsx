@@ -27,6 +27,7 @@ PassThrough.thumnail = <div className={style.thumnail}>透传组件</div>;
 
 PassThrough.data = {
   status: "pending",
+  overwriteInput: true
 };
 
 PassThrough.ports = PortTemplate.full;

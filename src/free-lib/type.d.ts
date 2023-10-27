@@ -4,12 +4,14 @@ import { PortManager } from "@antv/x6/lib/model/port";
 type IStencilStatus = "pending" | "processing" | "success" | "failed";
 
 interface IStencilData<I, O> {
-  status: IStencilStatus;
-  input?: I;
-  output?: O;
+  status: IStencilStatus; // 状态
+  input?: I; // 输入数据
+  output?: O; // 输出数据
   extra?: {
+    // 额外数据（组件内提供，供executor消费）
     [key: string]: any;
   };
+  overwriteInput?: boolean; // 节点输入数据是否被覆写
 }
 type TPorts = Partial<PortManager.Metadata> | PortManager.PortMetadata[];
 

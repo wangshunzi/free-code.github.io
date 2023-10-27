@@ -3,7 +3,8 @@ import { IStencilData, TPorts } from "@/free-lib/type";
 import StatusWrapper from "../common/statusWrapper";
 import { ReactNode } from "react";
 import style from "./index.less";
-import { Input } from "antd";
+import { Input, message } from "antd";
+import { js_beautify } from "js-beautify";
 
 const PlaceholderThumnail = (content: string) => (
   <div className={style.thumnail}>{content}</div>
@@ -23,7 +24,10 @@ class Transformer extends GraphBaseComponent {
     return Promise.resolve(input);
   };
   static ports?: TPorts = PortTemplate.full;
-
+  state = {
+    content: "",
+    check: true,
+  };
   componentDidMount(): void {}
   render() {
     const { node, graph } = this.props;
@@ -34,16 +38,52 @@ class Transformer extends GraphBaseComponent {
           <div className={style.fixed}>{"(input: any) => {"}</div>
           <Input.TextArea
             onBlur={(e) => {
-              const value = e.target.value;
+              const value = this.state.content;
+              const _b_code = js_beautify(value, {
+                indent_size: 2,
+                space_in_empty_paren: true,
+                // 其他配置项...
+              });
+              this.setState({
+                content: _b_code,
+              });
               if (value && value.trim().length > 0) {
-                node.setData({
-                  extra: {
-                    handler: new Function("input", value),
-                  },
+                try {
+                  const f = new Function("input", value);
+                  node.setData({
+                    extra: {
+                      handler: f,
+                    },
+                  });
+                } catch {
+                  message.error("函数实现语法有误，请检查");
+                }
+              }
+            }}
+            onChange={(e) => {
+              const code = e.target.value;
+
+              this.setState({
+                content: code,
+              });
+              try {
+                const f = new Function("input", code);
+                if (f) {
+                  this.setState({
+                    check: true,
+                  });
+                }
+              } catch {
+                this.setState({
+                  check: false,
                 });
               }
             }}
+            value={this.state.content}
             className={style.ta}
+            style={
+              this.state.check ? { color: "limegreen" } : { color: "tomato" }
+            }
             bordered={false}
             placeholder="请输入转换逻辑..."
           />

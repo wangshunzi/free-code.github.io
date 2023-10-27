@@ -19,11 +19,11 @@ class Args extends GraphBaseComponent {
     | undefined = (input, extra) => {
     return Promise.resolve(input);
   };
-  static ports?: TPorts = PortTemplate.onlyOutput;  
+  static ports?: TPorts = PortTemplate.onlyOutput;
 
   componentDidMount(): void {}
   render() {
-    const { node, graph } = this.props;
+    const { node } = this.props;
     const data = node.getData() as IStencilData<any, any>;
     return (
       <StatusWrapper status={data.status}>
