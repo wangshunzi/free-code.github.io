@@ -113,9 +113,9 @@ const _initGraph = (graph: Graph) => {
       resizing: {
         enabled: true,
         minWidth: 200,
-        maxWidth: 500,
         minHeight: 100,
-        maxHeight: 500,
+        maxWidth: 2000,
+        maxHeight: 2000,
         orthogonal: false,
         restrict: false,
         preserveAspectRatio: false,
@@ -193,7 +193,30 @@ export const createGraph = (container: HTMLDivElement) => {
         return true;
       },
     },
+    embedding: {
+      enabled: true,
+      findParent({ node }) {
+        const bbox = node.getBBox();
+        return this.getNodes().filter((node) => {
+          const data = node.getData<any>();
+          if (data && data.parent) {
+            const targetBBox = node.getBBox();
+            return bbox.isIntersectWithRect(targetBBox);
+          }
+          return false;
+        });
+      },
+    },
     highlighting: {
+      embedding: {
+        name: "stroke",
+        args: {
+          padding: -1,
+          attrs: {
+            stroke: "#73d13d",
+          },
+        },
+      },
       // 连接桩可以被连接时在连接桩外围围渲染一个包围框
       magnetAvailable: {
         name: "stroke",

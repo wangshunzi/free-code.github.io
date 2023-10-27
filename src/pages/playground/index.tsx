@@ -10,6 +10,7 @@ import Args from "@/components/args";
 import Api from "@/components/api";
 import ImageShow from "@/components/imageShow";
 import { CloudDownloadOutlined, CloudUploadOutlined } from "@ant-design/icons";
+import Group from "@/components/group";
 
 function saveTextAsFile(textToSave: string, fileName: string) {
   // 创建一个 Blob 对象，将文本内容放入其中
@@ -88,6 +89,7 @@ export default function Playground() {
       Args,
       Api,
       ImageShow,
+      Group,
     ]);
 
     freeClientRef.current.onHistoryChange((canRedo, canUndo) => {

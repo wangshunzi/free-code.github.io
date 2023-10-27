@@ -12,6 +12,7 @@ interface IStencilData<I, O> {
     [key: string]: any;
   };
   overwriteInput?: boolean; // 节点输入数据是否被覆写
+  parent?: boolean; // 组标识
 }
 type TPorts = Partial<PortManager.Metadata> | PortManager.PortMetadata[];
 
