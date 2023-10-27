@@ -5,6 +5,7 @@ specifiers:
   '@antv/x6': ^2.15.3
   '@antv/x6-plugin-clipboard': ^2.1.6
   '@antv/x6-plugin-dnd': ^2.1.1
+  '@antv/x6-plugin-history': ^2.2.4
   '@antv/x6-plugin-keyboard': ^2.2.1
   '@antv/x6-plugin-selection': ^2.2.1
   '@antv/x6-plugin-snapline': ^2.1.7
@@ -26,6 +27,7 @@ dependencies:
   '@antv/x6': registry.npmjs.org/@antv/x6/2.15.3
   '@antv/x6-plugin-clipboard': registry.npmjs.org/@antv/x6-plugin-clipboard/2.1.6_@antv+x6@2.15.3
   '@antv/x6-plugin-dnd': registry.npmjs.org/@antv/x6-plugin-dnd/2.1.1_@antv+x6@2.15.3
+  '@antv/x6-plugin-history': registry.npmjs.org/@antv/x6-plugin-history/2.2.4_@antv+x6@2.15.3
   '@antv/x6-plugin-keyboard': registry.npmjs.org/@antv/x6-plugin-keyboard/2.2.1_@antv+x6@2.15.3
   '@antv/x6-plugin-selection': registry.npmjs.org/@antv/x6-plugin-selection/2.2.1_@antv+x6@2.15.3
   '@antv/x6-plugin-snapline': registry.npmjs.org/@antv/x6-plugin-snapline/2.1.7_@antv+x6@2.15.3
@@ -163,6 +165,17 @@ packages:
     id: registry.npmjs.org/@antv/x6-plugin-dnd/2.1.1
     name: '@antv/x6-plugin-dnd'
     version: 2.1.1
+    peerDependencies:
+      '@antv/x6': ^2.x
+    dependencies:
+      '@antv/x6': registry.npmjs.org/@antv/x6/2.15.3
+    dev: false
+
+  registry.npmjs.org/@antv/x6-plugin-history/2.2.4_@antv+x6@2.15.3:
+    resolution: {integrity: sha512-9gHHvEW4Fla+1hxUV49zNgJyIMoV9CjVM52MrFgAJcvyRn1Kvxz4MfxiKlG+DEZUs+/zvfjl9pS6gJOd8laRkg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@antv/x6-plugin-history/-/x6-plugin-history-2.2.4.tgz}
+    id: registry.npmjs.org/@antv/x6-plugin-history/2.2.4
+    name: '@antv/x6-plugin-history'
+    version: 2.2.4
     peerDependencies:
       '@antv/x6': ^2.x
     dependencies:

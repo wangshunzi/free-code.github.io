@@ -1,4 +1,4 @@
-import { Graph } from "@antv/x6";
+import { Cell, Graph } from "@antv/x6";
 import { createGraph } from "./graph";
 import { createStencilPane } from "./stencil";
 import { executeTaskWithGraph } from "./task";
@@ -20,6 +20,27 @@ export class FreeClient {
       this.graph,
       ({ register }) => (this.stencilRegister = register)
     );
+  }
+
+  toJSON(): {
+    cells: Cell.Properties[];
+  } {
+    return this.graph.toJSON();
+  }
+  fromJSON(data: { cells: Cell.Properties[] }) {
+    this.graph.fromJSON(data);
+  }
+
+  redo() {
+    this.graph.redo();
+  }
+  undo() {
+    this.graph.undo();
+  }
+  onHistoryChange(cb?: (canRedo: boolean, canUndo: boolean) => void) {
+    this.graph.on("history:change", () => {
+      cb?.(this.graph.canRedo(), this.graph.canUndo());
+    });
   }
 
   registerComponent(component: TComponent<any, any>) {

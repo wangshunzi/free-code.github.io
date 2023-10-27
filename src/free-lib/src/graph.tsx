@@ -4,6 +4,7 @@ import { Clipboard } from "@antv/x6-plugin-clipboard";
 import { Selection } from "@antv/x6-plugin-selection";
 import { Keyboard } from "@antv/x6-plugin-keyboard";
 import { Transform } from "@antv/x6-plugin-transform";
+import { History } from "@antv/x6-plugin-history";
 
 const __bindKeys = (graph: Graph) => {
   graph.bindKey("ctrl+c", () => {
@@ -125,6 +126,11 @@ const _initGraph = (graph: Graph) => {
           return 30;
         },
       },
+    })
+  );
+  graph.use(
+    new History({
+      enabled: true,
     })
   );
   __bindKeys(graph);
