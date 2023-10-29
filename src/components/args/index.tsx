@@ -23,10 +23,10 @@ class Args extends GraphBaseComponent {
 
   componentDidMount(): void {}
   render() {
-    const { node } = this.props;
+    const { node, graph } = this.props;
     const data = node.getData() as IStencilData<any, any>;
     return (
-      <StatusWrapper status={data.status}>
+      <StatusWrapper status={data.status} node={node} graph={graph}>
         <div className={style.code}>
           <Input.TextArea
             onBlur={(e) => {
@@ -37,9 +37,14 @@ class Args extends GraphBaseComponent {
               } catch (e) {
                 d = value;
               }
-              node.setData({
-                input: d,
-              });
+              node.setData(
+                {
+                  ...data,
+                  input: d,
+                  output: undefined,
+                },
+                { overwrite: true }
+              );
             }}
             className={style.ta}
             bordered={false}

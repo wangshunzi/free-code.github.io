@@ -18,7 +18,7 @@ const Login: TComponent<TInput, TOutput> = ({ node, graph }) => {
   // console.log("----", node, graph);
   const data = node.getData() as IStencilData<TInput, TOutput>;
   return (
-    <StatusWrapper status={data.status}>
+    <StatusWrapper status={data.status} node={node} graph={graph}>
       <div className={style.login}>
         <div className={style.title}>登录</div>
         <Input

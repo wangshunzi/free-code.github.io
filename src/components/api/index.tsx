@@ -39,6 +39,8 @@ const Api: TComponent<TApiInput, any> = ({ node, graph }) => {
   const timerRef = useRef<NodeJS.Timeout>();
 
   useEffect(() => {
+    let url = data.input?.url;
+    let method = data.input?.method;
     let params: any = data.input?.params;
     try {
       params = JSON.stringify(params, null, 4);
@@ -54,21 +56,21 @@ const Api: TComponent<TApiInput, any> = ({ node, graph }) => {
       headers = [];
     }
     form.setFieldsValue({
-      ...data.input,
+      url,
+      method,
       params,
       headers,
     });
   }, [data]);
 
   return (
-    <StatusWrapper status={data.status}>
+    <StatusWrapper status={data.status} node={node} graph={graph}>
       <div className={style.container}>
         <Form
           form={form}
           labelCol={{ span: 4 }}
           wrapperCol={{ span: 20 }}
           onValuesChange={(_, values) => {
-            console.log(_);
             const update = () => {
               values.headers = values.headers.map((kv: any) => {
                 if (!kv) {
@@ -119,7 +121,7 @@ const Api: TComponent<TApiInput, any> = ({ node, graph }) => {
 
           <Form.Item label="方法" name={"method"}>
             <Radio.Group>
-              <Space size={16}>
+              <Space size={8}>
                 <Radio value="get">GET</Radio>
                 <Radio value="post">POST</Radio>
                 <Radio value="put">PUT</Radio>
@@ -184,7 +186,7 @@ const Api: TComponent<TApiInput, any> = ({ node, graph }) => {
 Api.group = "通用组件";
 Api.shape = "api";
 
-Api.size = [400, 400];
+Api.size = [420, 420];
 
 Api.thumnail = PlaceholderThumnail("接口组件");
 

@@ -1,8 +1,12 @@
-import { IStencilStatus } from "../../free-lib/type";
+import { Graph, Node } from "@antv/x6";
+import { IStencilData, IStencilStatus } from "../../free-lib/type";
+import { Switch } from "antd";
 
 interface IStatusWrapper {
   children?: React.ReactNode;
   status: IStencilStatus;
+  node: Node;
+  graph: Graph;
 }
 
 const _styleMap: {
@@ -26,7 +30,14 @@ const _styleMap: {
   },
 };
 
-const StatusWrapper: React.FC<IStatusWrapper> = ({ children, status }) => {
+const StatusWrapper: React.FC<IStatusWrapper> = ({
+  children,
+  status,
+  node,
+  graph,
+}) => {
+  const data = node.getData() as IStencilData<any, any>;
+  const hasInput = (node as any).port.ports.some((p) => p.group == "input");
   return (
     <div
       style={{
@@ -34,9 +45,29 @@ const StatusWrapper: React.FC<IStatusWrapper> = ({ children, status }) => {
         height: "100%",
         borderRadius: "8px",
         overflow: "hidden",
+        position: "relative",
         ..._styleMap[status],
       }}
     >
+      {hasInput ? (
+        <Switch
+          size="small"
+          checked={data.overwriteInput}
+          onChange={(c) => {
+            node.setData({
+              overwriteInput: c,
+            });
+          }}
+          checkedChildren="覆盖"
+          unCheckedChildren="合并"
+          style={{
+            zIndex: 999,
+            position: "absolute",
+            top: "4px",
+            right: "4px",
+          }}
+        />
+      ) : null}
       {children}
     </div>
   );

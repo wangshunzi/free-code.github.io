@@ -7,7 +7,7 @@ const { Paragraph } = Typography;
 const PassThrough: TComponent<any, any> = ({ node, graph }) => {
   const data = node.getData() as IStencilData<any, any>;
   return (
-    <StatusWrapper status={data.status}>
+    <StatusWrapper status={data.status} node={node} graph={graph}>
       <div className={style.container}>
         {data.input != undefined ? (
           <Paragraph copyable>{JSON.stringify(data.input, null, 4)}</Paragraph>
@@ -27,7 +27,7 @@ PassThrough.thumnail = <div className={style.thumnail}>透传组件</div>;
 
 PassThrough.data = {
   status: "pending",
-  overwriteInput: true
+  overwriteInput: true,
 };
 
 PassThrough.ports = PortTemplate.full;

@@ -33,7 +33,7 @@ class Transformer extends GraphBaseComponent {
     const { node, graph } = this.props;
     const data = node.getData() as IStencilData<any, any>;
     return (
-      <StatusWrapper status={data.status}>
+      <StatusWrapper status={data.status} node={node} graph={graph}>
         <div className={style.code}>
           <div className={style.fixed}>{"(input: any) => {"}</div>
           <Input.TextArea

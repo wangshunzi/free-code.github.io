@@ -8,7 +8,7 @@ const ImageShow: TComponent<string[], any> = ({ node, graph }) => {
   // console.log("----", node, graph);
   const data = node.getData() as IStencilData<string[], any>;
   return (
-    <StatusWrapper status={data.status}>
+    <StatusWrapper status={data.status} node={node} graph={graph}>
       <div className={style.container}>
         <Image.PreviewGroup items={data.input}>
           <Image
