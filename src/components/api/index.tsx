@@ -183,7 +183,7 @@ const Api: TComponent<TApiInput, any> = ({ node, graph }) => {
   );
 };
 
-Api.group = "通用组件";
+Api.group = "业务组件";
 Api.shape = "api";
 
 Api.size = [420, 420];

@@ -32,7 +32,7 @@ const Timer: TComponent<any, any> = ({ node, graph }) => {
 };
 
 Timer.shape = "timer";
-Timer.group = "通用组件";
+Timer.group = "通用工具";
 Timer.size = [200, 200];
 Timer.executor = (input, extra) => {
   return new Promise((resolve) => {

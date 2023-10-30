@@ -86,10 +86,10 @@ export default function Playground() {
     // 注册组件
     freeClientRef.current.registerComponents([
       Login,
+      Api,
+      Args,
       PassThrough,
       Transformer,
-      Args,
-      Api,
       ImageShow,
       Group,
       Timer,

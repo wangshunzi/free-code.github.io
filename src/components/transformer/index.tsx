@@ -11,7 +11,7 @@ const PlaceholderThumnail = (content: string) => (
 );
 
 class Transformer extends GraphBaseComponent {
-  static group: string = "通用组件";
+  static group: string = "通用工具";
   static shape: string = "transformer";
   static size: [number, number] = [300, 300];
   static thumnail: ReactNode = PlaceholderThumnail("转换器");
