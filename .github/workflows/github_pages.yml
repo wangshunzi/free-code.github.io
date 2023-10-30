@@ -9,14 +9,6 @@ jobs:
     name: 编译打包与部署
     runs-on: ubuntu-latest
 
-    permissions:
-      pages: write
-      id-token: write
-
-    # environment:
-    #   name: github-pages
-    #   url: ${{ steps.deployment.outputs.page_url }}
-
     strategy:
       matrix:
         node-version: [18.x]
