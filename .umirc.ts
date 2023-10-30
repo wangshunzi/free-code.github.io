@@ -6,4 +6,5 @@ export default defineConfig({
     { path: "/playground", component: "playground" },
   ],
   npmClient: "pnpm",
+  publicPath: "/free-code.github.io/",
 });
