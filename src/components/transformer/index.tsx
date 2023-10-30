@@ -28,7 +28,25 @@ class Transformer extends GraphBaseComponent {
     content: "",
     check: true,
   };
-  componentDidMount(): void {}
+  componentDidMount(): void {
+    const { node } = this.props;
+    const data = node.getData() as IStencilData<any, any>;
+    const code = data.extra?.code;
+    this.setState({
+      content: code,
+    });
+    try {
+      const f = new Function("input", code);
+      node.setData({
+        extra: {
+          handler: f,
+          code: code,
+        },
+      });
+    } catch {
+      message.error("函数实现语法有误，请检查");
+    }
+  }
   render() {
     const { node, graph } = this.props;
     const data = node.getData() as IStencilData<any, any>;
@@ -53,6 +71,7 @@ class Transformer extends GraphBaseComponent {
                   node.setData({
                     extra: {
                       handler: f,
+                      code: _b_code,
                     },
                   });
                 } catch {

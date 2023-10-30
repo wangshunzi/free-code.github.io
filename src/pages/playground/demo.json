@@ -1,0 +1,3695 @@
+{
+    "cells": [
+        {
+            "position": {
+                "x": 90,
+                "y": -240
+            },
+            "size": {
+                "width": 300,
+                "height": 180
+            },
+            "view": "react-shape-view",
+            "shape": "login",
+            "ports": {
+                "groups": {
+                    "input": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#d9d9d9",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "output": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#595959",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "refresh": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#8f8f8f",
+                                "r": 5
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "id": "op-1",
+                        "group": "output"
+                    }
+                ]
+            },
+            "id": "81935e7f-f4ec-4be7-9762-cf9a7041c4b7",
+            "data": {
+                "status": "success",
+                "input": {
+                    "email": "shunzi.wang@welltop.cn",
+                    "password": "4UJHCZ"
+                },
+                "output": {
+                    "name": "王顺子",
+                    "token": "c31ba073-ae13-4eb8-82e2-49678f16360c",
+                    "role": "internal"
+                }
+            },
+            "zIndex": 1
+        },
+        {
+            "position": {
+                "x": 531,
+                "y": -240
+            },
+            "size": {
+                "width": 200,
+                "height": 180
+            },
+            "view": "react-shape-view",
+            "shape": "pass",
+            "ports": {
+                "groups": {
+                    "input": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#d9d9d9",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "output": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#595959",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "refresh": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#8f8f8f",
+                                "r": 5
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "id": "ip-1",
+                        "group": "input"
+                    },
+                    {
+                        "id": "op-1",
+                        "group": "output"
+                    }
+                ]
+            },
+            "id": "73af84cb-2edc-4ebe-ab5e-6df506ec7f76",
+            "data": {
+                "status": "success",
+                "overwriteInput": true,
+                "input": {
+                    "name": "王顺子",
+                    "token": "c31ba073-ae13-4eb8-82e2-49678f16360c",
+                    "role": "internal"
+                },
+                "output": {
+                    "name": "王顺子",
+                    "token": "c31ba073-ae13-4eb8-82e2-49678f16360c",
+                    "role": "internal"
+                }
+            },
+            "zIndex": 2
+        },
+        {
+            "shape": "edge",
+            "attrs": {
+                "line": {
+                    "stroke": "#8f8f8f",
+                    "strokeWidth": 1,
+                    "strokeDasharray": "",
+                    "style": {
+                        "animation": ""
+                    }
+                }
+            },
+            "id": "705453a1-5adb-4c8d-9318-b67a8a8d34ca",
+            "zIndex": 3,
+            "source": {
+                "cell": "81935e7f-f4ec-4be7-9762-cf9a7041c4b7",
+                "port": "op-1"
+            },
+            "target": {
+                "cell": "73af84cb-2edc-4ebe-ab5e-6df506ec7f76",
+                "port": "ip-1"
+            }
+        },
+        {
+            "position": {
+                "x": 810,
+                "y": -275
+            },
+            "size": {
+                "width": 340,
+                "height": 250
+            },
+            "view": "react-shape-view",
+            "shape": "transformer",
+            "ports": {
+                "groups": {
+                    "input": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#d9d9d9",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "output": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#595959",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "refresh": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#8f8f8f",
+                                "r": 5
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "id": "ip-1",
+                        "group": "input"
+                    },
+                    {
+                        "id": "op-1",
+                        "group": "output"
+                    }
+                ]
+            },
+            "id": "b6d47bfb-42f1-4e60-8237-3737fd1c913a",
+            "data": {
+                "status": "success",
+                "input": {
+                    "name": "王顺子",
+                    "token": "c31ba073-ae13-4eb8-82e2-49678f16360c",
+                    "role": "internal"
+                },
+                "output": {
+                    "headers": {
+                        "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
+                    }
+                },
+                "extra": {
+                    "code": "return {\n  headers: {\n    \"Access-Token\": input[\"token\"]\n  }\n}"
+                }
+            },
+            "zIndex": 4
+        },
+        {
+            "shape": "edge",
+            "attrs": {
+                "line": {
+                    "stroke": "#8f8f8f",
+                    "strokeWidth": 1,
+                    "strokeDasharray": "",
+                    "style": {
+                        "animation": ""
+                    }
+                }
+            },
+            "id": "ff392cdd-ac88-498d-ad37-4c780fd6bca6",
+            "zIndex": 5,
+            "source": {
+                "cell": "73af84cb-2edc-4ebe-ab5e-6df506ec7f76",
+                "port": "op-1"
+            },
+            "target": {
+                "cell": "b6d47bfb-42f1-4e60-8237-3737fd1c913a",
+                "port": "ip-1"
+            }
+        },
+        {
+            "position": {
+                "x": 1430,
+                "y": -240
+            },
+            "size": {
+                "width": 200,
+                "height": 180
+            },
+            "view": "react-shape-view",
+            "shape": "pass",
+            "ports": {
+                "groups": {
+                    "input": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#d9d9d9",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "output": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#595959",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "refresh": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#8f8f8f",
+                                "r": 5
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "id": "ip-1",
+                        "group": "input"
+                    },
+                    {
+                        "id": "op-1",
+                        "group": "output"
+                    }
+                ]
+            },
+            "id": "8cb7b4f5-9c30-4cdd-a461-bebbb04cdc44",
+            "data": {
+                "status": "success",
+                "overwriteInput": true,
+                "input": {
+                    "headers": {
+                        "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
+                    }
+                },
+                "output": {
+                    "headers": {
+                        "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
+                    }
+                }
+            },
+            "zIndex": 6
+        },
+        {
+            "shape": "edge",
+            "attrs": {
+                "line": {
+                    "stroke": "#8f8f8f",
+                    "strokeWidth": 1,
+                    "strokeDasharray": "",
+                    "style": {
+                        "animation": ""
+                    }
+                }
+            },
+            "id": "b44a194f-7ea5-4535-bd64-2352afa4a3df",
+            "zIndex": 7,
+            "source": {
+                "cell": "b6d47bfb-42f1-4e60-8237-3737fd1c913a",
+                "port": "op-1"
+            },
+            "target": {
+                "cell": "8cb7b4f5-9c30-4cdd-a461-bebbb04cdc44",
+                "port": "ip-1"
+            }
+        },
+        {
+            "position": {
+                "x": -99,
+                "y": 570
+            },
+            "size": {
+                "width": 420,
+                "height": 420
+            },
+            "view": "react-shape-view",
+            "shape": "api",
+            "ports": {
+                "groups": {
+                    "input": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#d9d9d9",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "output": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#595959",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "refresh": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#8f8f8f",
+                                "r": 5
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "id": "ip-1",
+                        "group": "input"
+                    },
+                    {
+                        "id": "op-1",
+                        "group": "output"
+                    }
+                ]
+            },
+            "id": "9e5bbd7d-6591-4027-9e12-15b1cf8ff096",
+            "data": {
+                "status": "success",
+                "input": {
+                    "url": " https://pre-api.welltop.tech/api/v1/avatar/face-merge/random-face",
+                    "method": "get",
+                    "headers": {
+                        "Content-Type": "application/json",
+                        "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
+                    },
+                    "params": {
+                        "style": "wanghong"
+                    }
+                },
+                "output": {
+                    "data": {
+                        "code": 2000,
+                        "data": {
+                            "list": [
+                                {
+                                    "id": "5964",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5964.png"
+                                },
+                                {
+                                    "id": "1864",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1864.png"
+                                },
+                                {
+                                    "id": "3059",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3059.png"
+                                },
+                                {
+                                    "id": "1514",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1514.png"
+                                },
+                                {
+                                    "id": "1819",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1819.png"
+                                },
+                                {
+                                    "id": "1876",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1876.png"
+                                },
+                                {
+                                    "id": "6982",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6982.png"
+                                },
+                                {
+                                    "id": "8259",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8259.png"
+                                },
+                                {
+                                    "id": "5336",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5336.png"
+                                },
+                                {
+                                    "id": "5643",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5643.png"
+                                },
+                                {
+                                    "id": "385",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png"
+                                },
+                                {
+                                    "id": "9134",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9134.png"
+                                },
+                                {
+                                    "id": "9531",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9531.png"
+                                },
+                                {
+                                    "id": "2909",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/2909.png"
+                                },
+                                {
+                                    "id": "6045",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6045.png"
+                                }
+                            ]
+                        },
+                        "message": "",
+                        "request_id": "2b49a6364ae147a5b745279f5707caca"
+                    },
+                    "status": 200,
+                    "statusText": "",
+                    "headers": {
+                        "access-control-allow-headers": "Authorization, Content-Length, X-CSRF-Token, Token,session,user_token,Content-Type,Access-Token,Access-Token-TMP,X-Requested-With,KES-SERVICE",
+                        "access-control-allow-origin": "http://localhost:8001",
+                        "content-length": "1785",
+                        "content-type": "application/json; charset=utf-8"
+                    },
+                    "config": {
+                        "transitional": {
+                            "silentJSONParsing": true,
+                            "forcedJSONParsing": true,
+                            "clarifyTimeoutError": false
+                        },
+                        "adapter": [
+                            "xhr",
+                            "http"
+                        ],
+                        "transformRequest": [
+                            null
+                        ],
+                        "transformResponse": [
+                            null
+                        ],
+                        "timeout": 0,
+                        "xsrfCookieName": "XSRF-TOKEN",
+                        "xsrfHeaderName": "X-XSRF-TOKEN",
+                        "maxContentLength": -1,
+                        "maxBodyLength": -1,
+                        "env": {},
+                        "headers": {
+                            "Accept": "application/json, text/plain, */*",
+                            "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
+                        },
+                        "url": " https://pre-api.welltop.tech/api/v1/avatar/face-merge/random-face",
+                        "method": "get",
+                        "params": {
+                            "style": "wanghong"
+                        }
+                    },
+                    "request": {}
+                }
+            },
+            "zIndex": 8
+        },
+        {
+            "shape": "edge",
+            "attrs": {
+                "line": {
+                    "stroke": "#8f8f8f",
+                    "strokeWidth": 1,
+                    "strokeDasharray": "",
+                    "style": {
+                        "animation": ""
+                    }
+                }
+            },
+            "id": "75d947f2-f690-4e1e-ba64-b5b2cc33fd1a",
+            "zIndex": 9,
+            "source": {
+                "cell": "8cb7b4f5-9c30-4cdd-a461-bebbb04cdc44",
+                "port": "op-1"
+            },
+            "target": {
+                "cell": "9e5bbd7d-6591-4027-9e12-15b1cf8ff096",
+                "port": "ip-1"
+            },
+            "vertices": [
+                {
+                    "x": 1260,
+                    "y": 370
+                },
+                {
+                    "x": 120,
+                    "y": 370
+                },
+                {
+                    "x": -150,
+                    "y": 420
+                },
+                {
+                    "x": -150,
+                    "y": 680
+                }
+            ]
+        },
+        {
+            "position": {
+                "x": 569.9999999999961,
+                "y": 470
+            },
+            "size": {
+                "width": 650,
+                "height": 620
+            },
+            "view": "react-shape-view",
+            "shape": "pass",
+            "ports": {
+                "groups": {
+                    "input": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#d9d9d9",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "output": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#595959",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "refresh": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#8f8f8f",
+                                "r": 5
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "id": "ip-1",
+                        "group": "input"
+                    },
+                    {
+                        "id": "op-1",
+                        "group": "output"
+                    }
+                ]
+            },
+            "id": "ee6bf322-8b13-4d0d-ab7e-e76702afc03a",
+            "data": {
+                "status": "success",
+                "overwriteInput": true,
+                "input": {
+                    "data": {
+                        "code": 2000,
+                        "data": {
+                            "list": [
+                                {
+                                    "id": "5964",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5964.png"
+                                },
+                                {
+                                    "id": "1864",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1864.png"
+                                },
+                                {
+                                    "id": "3059",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3059.png"
+                                },
+                                {
+                                    "id": "1514",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1514.png"
+                                },
+                                {
+                                    "id": "1819",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1819.png"
+                                },
+                                {
+                                    "id": "1876",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1876.png"
+                                },
+                                {
+                                    "id": "6982",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6982.png"
+                                },
+                                {
+                                    "id": "8259",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8259.png"
+                                },
+                                {
+                                    "id": "5336",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5336.png"
+                                },
+                                {
+                                    "id": "5643",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5643.png"
+                                },
+                                {
+                                    "id": "385",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png"
+                                },
+                                {
+                                    "id": "9134",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9134.png"
+                                },
+                                {
+                                    "id": "9531",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9531.png"
+                                },
+                                {
+                                    "id": "2909",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/2909.png"
+                                },
+                                {
+                                    "id": "6045",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6045.png"
+                                }
+                            ]
+                        },
+                        "message": "",
+                        "request_id": "2b49a6364ae147a5b745279f5707caca"
+                    },
+                    "status": 200,
+                    "statusText": "",
+                    "headers": {
+                        "access-control-allow-headers": "Authorization, Content-Length, X-CSRF-Token, Token,session,user_token,Content-Type,Access-Token,Access-Token-TMP,X-Requested-With,KES-SERVICE",
+                        "access-control-allow-origin": "http://localhost:8001",
+                        "content-length": "1785",
+                        "content-type": "application/json; charset=utf-8"
+                    },
+                    "config": {
+                        "transitional": {
+                            "silentJSONParsing": true,
+                            "forcedJSONParsing": true,
+                            "clarifyTimeoutError": false
+                        },
+                        "adapter": [
+                            "xhr",
+                            "http"
+                        ],
+                        "transformRequest": [
+                            null
+                        ],
+                        "transformResponse": [
+                            null
+                        ],
+                        "timeout": 0,
+                        "xsrfCookieName": "XSRF-TOKEN",
+                        "xsrfHeaderName": "X-XSRF-TOKEN",
+                        "maxContentLength": -1,
+                        "maxBodyLength": -1,
+                        "env": {},
+                        "headers": {
+                            "Accept": "application/json, text/plain, */*",
+                            "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
+                        },
+                        "url": " https://pre-api.welltop.tech/api/v1/avatar/face-merge/random-face",
+                        "method": "get",
+                        "params": {
+                            "style": "wanghong"
+                        }
+                    },
+                    "request": {}
+                },
+                "output": {
+                    "data": {
+                        "code": 2000,
+                        "data": {
+                            "list": [
+                                {
+                                    "id": "5964",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5964.png"
+                                },
+                                {
+                                    "id": "1864",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1864.png"
+                                },
+                                {
+                                    "id": "3059",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3059.png"
+                                },
+                                {
+                                    "id": "1514",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1514.png"
+                                },
+                                {
+                                    "id": "1819",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1819.png"
+                                },
+                                {
+                                    "id": "1876",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1876.png"
+                                },
+                                {
+                                    "id": "6982",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6982.png"
+                                },
+                                {
+                                    "id": "8259",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8259.png"
+                                },
+                                {
+                                    "id": "5336",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5336.png"
+                                },
+                                {
+                                    "id": "5643",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5643.png"
+                                },
+                                {
+                                    "id": "385",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png"
+                                },
+                                {
+                                    "id": "9134",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9134.png"
+                                },
+                                {
+                                    "id": "9531",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9531.png"
+                                },
+                                {
+                                    "id": "2909",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/2909.png"
+                                },
+                                {
+                                    "id": "6045",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6045.png"
+                                }
+                            ]
+                        },
+                        "message": "",
+                        "request_id": "2b49a6364ae147a5b745279f5707caca"
+                    },
+                    "status": 200,
+                    "statusText": "",
+                    "headers": {
+                        "access-control-allow-headers": "Authorization, Content-Length, X-CSRF-Token, Token,session,user_token,Content-Type,Access-Token,Access-Token-TMP,X-Requested-With,KES-SERVICE",
+                        "access-control-allow-origin": "http://localhost:8001",
+                        "content-length": "1785",
+                        "content-type": "application/json; charset=utf-8"
+                    },
+                    "config": {
+                        "transitional": {
+                            "silentJSONParsing": true,
+                            "forcedJSONParsing": true,
+                            "clarifyTimeoutError": false
+                        },
+                        "adapter": [
+                            "xhr",
+                            "http"
+                        ],
+                        "transformRequest": [
+                            null
+                        ],
+                        "transformResponse": [
+                            null
+                        ],
+                        "timeout": 0,
+                        "xsrfCookieName": "XSRF-TOKEN",
+                        "xsrfHeaderName": "X-XSRF-TOKEN",
+                        "maxContentLength": -1,
+                        "maxBodyLength": -1,
+                        "env": {},
+                        "headers": {
+                            "Accept": "application/json, text/plain, */*",
+                            "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
+                        },
+                        "url": " https://pre-api.welltop.tech/api/v1/avatar/face-merge/random-face",
+                        "method": "get",
+                        "params": {
+                            "style": "wanghong"
+                        }
+                    },
+                    "request": {}
+                }
+            },
+            "zIndex": 10
+        },
+        {
+            "shape": "edge",
+            "attrs": {
+                "line": {
+                    "stroke": "#8f8f8f",
+                    "strokeWidth": 1,
+                    "strokeDasharray": "",
+                    "style": {
+                        "animation": ""
+                    }
+                }
+            },
+            "id": "55fa99e2-ee24-4221-bcf1-cfb57d77d39f",
+            "zIndex": 11,
+            "source": {
+                "cell": "9e5bbd7d-6591-4027-9e12-15b1cf8ff096",
+                "port": "op-1"
+            },
+            "target": {
+                "cell": "ee6bf322-8b13-4d0d-ab7e-e76702afc03a",
+                "port": "ip-1"
+            }
+        },
+        {
+            "position": {
+                "x": 1406,
+                "y": 630
+            },
+            "size": {
+                "width": 300,
+                "height": 300
+            },
+            "view": "react-shape-view",
+            "shape": "transformer",
+            "ports": {
+                "groups": {
+                    "input": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#d9d9d9",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "output": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#595959",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "refresh": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#8f8f8f",
+                                "r": 5
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "id": "ip-1",
+                        "group": "input"
+                    },
+                    {
+                        "id": "op-1",
+                        "group": "output"
+                    }
+                ]
+            },
+            "id": "d4b43feb-9929-45e5-85fe-fdf7f9edcb8a",
+            "data": {
+                "status": "success",
+                "input": {
+                    "data": {
+                        "code": 2000,
+                        "data": {
+                            "list": [
+                                {
+                                    "id": "5964",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5964.png"
+                                },
+                                {
+                                    "id": "1864",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1864.png"
+                                },
+                                {
+                                    "id": "3059",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3059.png"
+                                },
+                                {
+                                    "id": "1514",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1514.png"
+                                },
+                                {
+                                    "id": "1819",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1819.png"
+                                },
+                                {
+                                    "id": "1876",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1876.png"
+                                },
+                                {
+                                    "id": "6982",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6982.png"
+                                },
+                                {
+                                    "id": "8259",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8259.png"
+                                },
+                                {
+                                    "id": "5336",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5336.png"
+                                },
+                                {
+                                    "id": "5643",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5643.png"
+                                },
+                                {
+                                    "id": "385",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png"
+                                },
+                                {
+                                    "id": "9134",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9134.png"
+                                },
+                                {
+                                    "id": "9531",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9531.png"
+                                },
+                                {
+                                    "id": "2909",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/2909.png"
+                                },
+                                {
+                                    "id": "6045",
+                                    "style": "wanghong",
+                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6045.png"
+                                }
+                            ]
+                        },
+                        "message": "",
+                        "request_id": "2b49a6364ae147a5b745279f5707caca"
+                    },
+                    "status": 200,
+                    "statusText": "",
+                    "headers": {
+                        "access-control-allow-headers": "Authorization, Content-Length, X-CSRF-Token, Token,session,user_token,Content-Type,Access-Token,Access-Token-TMP,X-Requested-With,KES-SERVICE",
+                        "access-control-allow-origin": "http://localhost:8001",
+                        "content-length": "1785",
+                        "content-type": "application/json; charset=utf-8"
+                    },
+                    "config": {
+                        "transitional": {
+                            "silentJSONParsing": true,
+                            "forcedJSONParsing": true,
+                            "clarifyTimeoutError": false
+                        },
+                        "adapter": [
+                            "xhr",
+                            "http"
+                        ],
+                        "transformRequest": [
+                            null
+                        ],
+                        "transformResponse": [
+                            null
+                        ],
+                        "timeout": 0,
+                        "xsrfCookieName": "XSRF-TOKEN",
+                        "xsrfHeaderName": "X-XSRF-TOKEN",
+                        "maxContentLength": -1,
+                        "maxBodyLength": -1,
+                        "env": {},
+                        "headers": {
+                            "Accept": "application/json, text/plain, */*",
+                            "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
+                        },
+                        "url": " https://pre-api.welltop.tech/api/v1/avatar/face-merge/random-face",
+                        "method": "get",
+                        "params": {
+                            "style": "wanghong"
+                        }
+                    },
+                    "request": {}
+                },
+                "output": [
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5964.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1864.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3059.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1514.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1819.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1876.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6982.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8259.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5336.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5643.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9134.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9531.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/2909.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6045.png"
+                ],
+                "extra": {
+                    "code": "return input.data.data.list.map(i => i.url)"
+                }
+            },
+            "zIndex": 12
+        },
+        {
+            "shape": "edge",
+            "attrs": {
+                "line": {
+                    "stroke": "#8f8f8f",
+                    "strokeWidth": 1,
+                    "strokeDasharray": "",
+                    "style": {
+                        "animation": ""
+                    }
+                }
+            },
+            "id": "15ce4bcb-378a-46b5-903d-450f84695514",
+            "zIndex": 13,
+            "source": {
+                "cell": "ee6bf322-8b13-4d0d-ab7e-e76702afc03a",
+                "port": "op-1"
+            },
+            "target": {
+                "cell": "d4b43feb-9929-45e5-85fe-fdf7f9edcb8a",
+                "port": "ip-1"
+            }
+        },
+        {
+            "position": {
+                "x": 1890,
+                "y": 690
+            },
+            "size": {
+                "width": 200,
+                "height": 180
+            },
+            "view": "react-shape-view",
+            "shape": "pass",
+            "ports": {
+                "groups": {
+                    "input": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#d9d9d9",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "output": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#595959",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "refresh": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#8f8f8f",
+                                "r": 5
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "id": "ip-1",
+                        "group": "input"
+                    },
+                    {
+                        "id": "op-1",
+                        "group": "output"
+                    }
+                ]
+            },
+            "id": "4bc66a07-fff6-4a3a-a98d-8f8299702b5b",
+            "data": {
+                "status": "success",
+                "overwriteInput": true,
+                "input": [
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5964.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1864.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3059.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1514.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1819.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1876.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6982.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8259.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5336.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5643.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9134.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9531.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/2909.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6045.png"
+                ],
+                "output": [
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5964.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1864.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3059.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1514.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1819.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1876.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6982.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8259.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5336.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5643.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9134.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9531.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/2909.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6045.png"
+                ]
+            },
+            "zIndex": 14
+        },
+        {
+            "shape": "edge",
+            "attrs": {
+                "line": {
+                    "stroke": "#8f8f8f",
+                    "strokeWidth": 1,
+                    "strokeDasharray": "",
+                    "style": {
+                        "animation": ""
+                    }
+                }
+            },
+            "id": "a035737f-eedc-4dc4-af59-fc48d08fc6e5",
+            "zIndex": 15,
+            "source": {
+                "cell": "d4b43feb-9929-45e5-85fe-fdf7f9edcb8a",
+                "port": "op-1"
+            },
+            "target": {
+                "cell": "4bc66a07-fff6-4a3a-a98d-8f8299702b5b",
+                "port": "ip-1"
+            }
+        },
+        {
+            "position": {
+                "x": 5350,
+                "y": 110
+            },
+            "size": {
+                "width": 300,
+                "height": 300
+            },
+            "view": "react-shape-view",
+            "shape": "image_show",
+            "ports": {
+                "groups": {
+                    "input": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#d9d9d9",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "output": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#595959",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "refresh": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#8f8f8f",
+                                "r": 5
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "id": "ip-1",
+                        "group": "input"
+                    }
+                ]
+            },
+            "id": "7dc9f0a0-54ef-455d-8a5c-1b2c43583866",
+            "data": {
+                "status": "success",
+                "overwriteInput": true,
+                "input": [
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5964.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1864.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3059.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1514.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1819.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1876.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6982.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8259.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5336.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5643.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9134.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9531.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/2909.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6045.png"
+                ],
+                "output": [
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5964.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1864.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3059.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1514.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1819.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1876.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6982.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8259.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5336.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5643.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9134.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9531.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/2909.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6045.png"
+                ]
+            },
+            "zIndex": 16
+        },
+        {
+            "shape": "edge",
+            "attrs": {
+                "line": {
+                    "stroke": "#8f8f8f",
+                    "strokeWidth": 1,
+                    "strokeDasharray": "",
+                    "style": {
+                        "animation": ""
+                    }
+                }
+            },
+            "id": "5608b625-ff06-43a6-b4b3-97eedf765f76",
+            "zIndex": 17,
+            "source": {
+                "cell": "4bc66a07-fff6-4a3a-a98d-8f8299702b5b",
+                "port": "op-1"
+            },
+            "target": {
+                "cell": "7dc9f0a0-54ef-455d-8a5c-1b2c43583866",
+                "port": "ip-1"
+            },
+            "vertices": [
+                {
+                    "x": 2090,
+                    "y": 300
+                }
+            ]
+        },
+        {
+            "position": {
+                "x": -99,
+                "y": 1540
+            },
+            "size": {
+                "width": 420,
+                "height": 420
+            },
+            "view": "react-shape-view",
+            "shape": "api",
+            "ports": {
+                "groups": {
+                    "input": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#d9d9d9",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "output": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#595959",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "refresh": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#8f8f8f",
+                                "r": 5
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "id": "ip-1",
+                        "group": "input"
+                    },
+                    {
+                        "id": "op-1",
+                        "group": "output"
+                    }
+                ]
+            },
+            "id": "9cc59e46-19e1-4840-aa8b-5c7e303f73e6",
+            "data": {
+                "status": "success",
+                "input": {
+                    "url": " https://pre-api.welltop.tech/api/v1/avatar/face-merge/body",
+                    "method": "get",
+                    "headers": {
+                        "Content-Type": "application/json",
+                        "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
+                    },
+                    "params": {}
+                },
+                "output": {
+                    "data": {
+                        "code": 2000,
+                        "data": {
+                            "list": [
+                                {
+                                    "id": "71237",
+                                    "name": "mrr-2",
+                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_2_v3.png"
+                                },
+                                {
+                                    "id": "71238",
+                                    "name": "xtz-1",
+                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_xtz_1_v3.png"
+                                },
+                                {
+                                    "id": "71239",
+                                    "name": "nic-1",
+                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_nic_1_v3.png"
+                                },
+                                {
+                                    "id": "71240",
+                                    "name": "lqj-2",
+                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_2_v3.png"
+                                },
+                                {
+                                    "id": "71241",
+                                    "name": "lqj-1",
+                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_1_v3.png"
+                                },
+                                {
+                                    "id": "71242",
+                                    "name": "mrr-1",
+                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_1_v3.png"
+                                },
+                                {
+                                    "id": "71243",
+                                    "name": "lqj-3",
+                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_3_v3.png"
+                                }
+                            ]
+                        },
+                        "message": "",
+                        "request_id": "d0b05e1d90a74500be3862d3749151e6"
+                    },
+                    "status": 200,
+                    "statusText": "",
+                    "headers": {
+                        "access-control-allow-headers": "Authorization, Content-Length, X-CSRF-Token, Token,session,user_token,Content-Type,Access-Token,Access-Token-TMP,X-Requested-With,KES-SERVICE",
+                        "access-control-allow-origin": "http://localhost:8001",
+                        "content-length": "897",
+                        "content-type": "application/json; charset=utf-8"
+                    },
+                    "config": {
+                        "transitional": {
+                            "silentJSONParsing": true,
+                            "forcedJSONParsing": true,
+                            "clarifyTimeoutError": false
+                        },
+                        "adapter": [
+                            "xhr",
+                            "http"
+                        ],
+                        "transformRequest": [
+                            null
+                        ],
+                        "transformResponse": [
+                            null
+                        ],
+                        "timeout": 0,
+                        "xsrfCookieName": "XSRF-TOKEN",
+                        "xsrfHeaderName": "X-XSRF-TOKEN",
+                        "maxContentLength": -1,
+                        "maxBodyLength": -1,
+                        "env": {},
+                        "headers": {
+                            "Accept": "application/json, text/plain, */*",
+                            "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
+                        },
+                        "url": " https://pre-api.welltop.tech/api/v1/avatar/face-merge/body",
+                        "method": "get",
+                        "params": {}
+                    },
+                    "request": {}
+                }
+            },
+            "zIndex": 21
+        },
+        {
+            "position": {
+                "x": 1106,
+                "y": 1600
+            },
+            "size": {
+                "width": 300,
+                "height": 300
+            },
+            "view": "react-shape-view",
+            "shape": "transformer",
+            "ports": {
+                "groups": {
+                    "input": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#d9d9d9",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "output": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#595959",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "refresh": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#8f8f8f",
+                                "r": 5
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "id": "ip-1",
+                        "group": "input"
+                    },
+                    {
+                        "id": "op-1",
+                        "group": "output"
+                    }
+                ]
+            },
+            "id": "86ccb830-fa7d-4a27-99eb-2446b0df567e",
+            "data": {
+                "status": "success",
+                "input": {
+                    "data": {
+                        "code": 2000,
+                        "data": {
+                            "list": [
+                                {
+                                    "id": "71237",
+                                    "name": "mrr-2",
+                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_2_v3.png"
+                                },
+                                {
+                                    "id": "71238",
+                                    "name": "xtz-1",
+                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_xtz_1_v3.png"
+                                },
+                                {
+                                    "id": "71239",
+                                    "name": "nic-1",
+                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_nic_1_v3.png"
+                                },
+                                {
+                                    "id": "71240",
+                                    "name": "lqj-2",
+                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_2_v3.png"
+                                },
+                                {
+                                    "id": "71241",
+                                    "name": "lqj-1",
+                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_1_v3.png"
+                                },
+                                {
+                                    "id": "71242",
+                                    "name": "mrr-1",
+                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_1_v3.png"
+                                },
+                                {
+                                    "id": "71243",
+                                    "name": "lqj-3",
+                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_3_v3.png"
+                                }
+                            ]
+                        },
+                        "message": "",
+                        "request_id": "d0b05e1d90a74500be3862d3749151e6"
+                    },
+                    "status": 200,
+                    "statusText": "",
+                    "headers": {
+                        "access-control-allow-headers": "Authorization, Content-Length, X-CSRF-Token, Token,session,user_token,Content-Type,Access-Token,Access-Token-TMP,X-Requested-With,KES-SERVICE",
+                        "access-control-allow-origin": "http://localhost:8001",
+                        "content-length": "897",
+                        "content-type": "application/json; charset=utf-8"
+                    },
+                    "config": {
+                        "transitional": {
+                            "silentJSONParsing": true,
+                            "forcedJSONParsing": true,
+                            "clarifyTimeoutError": false
+                        },
+                        "adapter": [
+                            "xhr",
+                            "http"
+                        ],
+                        "transformRequest": [
+                            null
+                        ],
+                        "transformResponse": [
+                            null
+                        ],
+                        "timeout": 0,
+                        "xsrfCookieName": "XSRF-TOKEN",
+                        "xsrfHeaderName": "X-XSRF-TOKEN",
+                        "maxContentLength": -1,
+                        "maxBodyLength": -1,
+                        "env": {},
+                        "headers": {
+                            "Accept": "application/json, text/plain, */*",
+                            "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
+                        },
+                        "url": " https://pre-api.welltop.tech/api/v1/avatar/face-merge/body",
+                        "method": "get",
+                        "params": {}
+                    },
+                    "request": {}
+                },
+                "output": [
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_2_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_xtz_1_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_nic_1_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_2_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_1_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_1_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_3_v3.png"
+                ],
+                "overwriteInput": true,
+                "extra": {
+                    "code": "return input.data.data.list.map(i => i.url)"
+                }
+            },
+            "zIndex": 23
+        },
+        {
+            "position": {
+                "x": 1729.9999999999986,
+                "y": 1550
+            },
+            "size": {
+                "width": 610,
+                "height": 400
+            },
+            "view": "react-shape-view",
+            "shape": "pass",
+            "ports": {
+                "groups": {
+                    "input": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#d9d9d9",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "output": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#595959",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "refresh": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#8f8f8f",
+                                "r": 5
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "id": "ip-1",
+                        "group": "input"
+                    },
+                    {
+                        "id": "op-1",
+                        "group": "output"
+                    }
+                ]
+            },
+            "id": "1f04cd54-8e41-40e3-8e84-16762bff3720",
+            "data": {
+                "status": "success",
+                "overwriteInput": true,
+                "input": [
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_2_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_xtz_1_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_nic_1_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_2_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_1_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_1_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_3_v3.png"
+                ],
+                "output": [
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_2_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_xtz_1_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_nic_1_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_2_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_1_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_1_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_3_v3.png"
+                ]
+            },
+            "zIndex": 24
+        },
+        {
+            "position": {
+                "x": 5350,
+                "y": 1610
+            },
+            "size": {
+                "width": 300,
+                "height": 300
+            },
+            "view": "react-shape-view",
+            "shape": "image_show",
+            "ports": {
+                "groups": {
+                    "input": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#d9d9d9",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "output": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#595959",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "refresh": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#8f8f8f",
+                                "r": 5
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "id": "ip-1",
+                        "group": "input"
+                    }
+                ]
+            },
+            "id": "db4bd6d7-5164-4581-a5e6-ca043b40bdc2",
+            "data": {
+                "status": "success",
+                "overwriteInput": true,
+                "input": [
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_2_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_xtz_1_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_nic_1_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_2_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_1_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_1_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_3_v3.png"
+                ],
+                "output": [
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_2_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_xtz_1_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_nic_1_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_2_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_1_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_1_v3.png",
+                    "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_3_v3.png"
+                ]
+            },
+            "zIndex": 25
+        },
+        {
+            "shape": "edge",
+            "attrs": {
+                "line": {
+                    "stroke": "#8f8f8f",
+                    "strokeWidth": 1,
+                    "strokeDasharray": "",
+                    "style": {
+                        "animation": ""
+                    }
+                }
+            },
+            "id": "e1faf9c1-c7c5-488c-9b96-ea58dd9a80a4",
+            "zIndex": 28,
+            "source": {
+                "cell": "86ccb830-fa7d-4a27-99eb-2446b0df567e",
+                "port": "op-1"
+            },
+            "target": {
+                "cell": "1f04cd54-8e41-40e3-8e84-16762bff3720",
+                "port": "ip-1"
+            }
+        },
+        {
+            "shape": "edge",
+            "attrs": {
+                "line": {
+                    "stroke": "#8f8f8f",
+                    "strokeWidth": 1,
+                    "strokeDasharray": "",
+                    "style": {
+                        "animation": ""
+                    }
+                }
+            },
+            "id": "57b5fd33-82c7-4f8d-9f46-41af41cc7f1b",
+            "zIndex": 29,
+            "source": {
+                "cell": "1f04cd54-8e41-40e3-8e84-16762bff3720",
+                "port": "op-1"
+            },
+            "target": {
+                "cell": "db4bd6d7-5164-4581-a5e6-ca043b40bdc2",
+                "port": "ip-1"
+            }
+        },
+        {
+            "shape": "edge",
+            "attrs": {
+                "line": {
+                    "stroke": "#8f8f8f",
+                    "strokeWidth": 1,
+                    "strokeDasharray": "",
+                    "style": {
+                        "animation": ""
+                    }
+                }
+            },
+            "id": "94f2053a-6328-4103-9ed9-bb5952ece796",
+            "zIndex": 30,
+            "source": {
+                "cell": "8cb7b4f5-9c30-4cdd-a461-bebbb04cdc44",
+                "port": "op-1"
+            },
+            "target": {
+                "cell": "9cc59e46-19e1-4840-aa8b-5c7e303f73e6",
+                "port": "ip-1"
+            },
+            "vertices": [
+                {
+                    "x": 1630,
+                    "y": 150
+                },
+                {
+                    "x": 30,
+                    "y": 150
+                },
+                {
+                    "x": -220,
+                    "y": 310
+                },
+                {
+                    "x": -220,
+                    "y": 1380
+                }
+            ]
+        },
+        {
+            "position": {
+                "x": 579.9999999999999,
+                "y": 1660
+            },
+            "size": {
+                "width": 240,
+                "height": 260
+            },
+            "view": "react-shape-view",
+            "shape": "pass",
+            "ports": {
+                "groups": {
+                    "input": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#d9d9d9",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "output": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#595959",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "refresh": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#8f8f8f",
+                                "r": 5
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "id": "ip-1",
+                        "group": "input"
+                    },
+                    {
+                        "id": "op-1",
+                        "group": "output"
+                    }
+                ]
+            },
+            "id": "48b7924a-afe5-411b-9333-6f7352aeb7ce",
+            "data": {
+                "status": "success",
+                "overwriteInput": true,
+                "input": {
+                    "data": {
+                        "code": 2000,
+                        "data": {
+                            "list": [
+                                {
+                                    "id": "71237",
+                                    "name": "mrr-2",
+                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_2_v3.png"
+                                },
+                                {
+                                    "id": "71238",
+                                    "name": "xtz-1",
+                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_xtz_1_v3.png"
+                                },
+                                {
+                                    "id": "71239",
+                                    "name": "nic-1",
+                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_nic_1_v3.png"
+                                },
+                                {
+                                    "id": "71240",
+                                    "name": "lqj-2",
+                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_2_v3.png"
+                                },
+                                {
+                                    "id": "71241",
+                                    "name": "lqj-1",
+                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_1_v3.png"
+                                },
+                                {
+                                    "id": "71242",
+                                    "name": "mrr-1",
+                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_1_v3.png"
+                                },
+                                {
+                                    "id": "71243",
+                                    "name": "lqj-3",
+                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_3_v3.png"
+                                }
+                            ]
+                        },
+                        "message": "",
+                        "request_id": "d0b05e1d90a74500be3862d3749151e6"
+                    },
+                    "status": 200,
+                    "statusText": "",
+                    "headers": {
+                        "access-control-allow-headers": "Authorization, Content-Length, X-CSRF-Token, Token,session,user_token,Content-Type,Access-Token,Access-Token-TMP,X-Requested-With,KES-SERVICE",
+                        "access-control-allow-origin": "http://localhost:8001",
+                        "content-length": "897",
+                        "content-type": "application/json; charset=utf-8"
+                    },
+                    "config": {
+                        "transitional": {
+                            "silentJSONParsing": true,
+                            "forcedJSONParsing": true,
+                            "clarifyTimeoutError": false
+                        },
+                        "adapter": [
+                            "xhr",
+                            "http"
+                        ],
+                        "transformRequest": [
+                            null
+                        ],
+                        "transformResponse": [
+                            null
+                        ],
+                        "timeout": 0,
+                        "xsrfCookieName": "XSRF-TOKEN",
+                        "xsrfHeaderName": "X-XSRF-TOKEN",
+                        "maxContentLength": -1,
+                        "maxBodyLength": -1,
+                        "env": {},
+                        "headers": {
+                            "Accept": "application/json, text/plain, */*",
+                            "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
+                        },
+                        "url": " https://pre-api.welltop.tech/api/v1/avatar/face-merge/body",
+                        "method": "get",
+                        "params": {}
+                    },
+                    "request": {}
+                },
+                "output": {
+                    "data": {
+                        "code": 2000,
+                        "data": {
+                            "list": [
+                                {
+                                    "id": "71237",
+                                    "name": "mrr-2",
+                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_2_v3.png"
+                                },
+                                {
+                                    "id": "71238",
+                                    "name": "xtz-1",
+                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_xtz_1_v3.png"
+                                },
+                                {
+                                    "id": "71239",
+                                    "name": "nic-1",
+                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_nic_1_v3.png"
+                                },
+                                {
+                                    "id": "71240",
+                                    "name": "lqj-2",
+                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_2_v3.png"
+                                },
+                                {
+                                    "id": "71241",
+                                    "name": "lqj-1",
+                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_1_v3.png"
+                                },
+                                {
+                                    "id": "71242",
+                                    "name": "mrr-1",
+                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_1_v3.png"
+                                },
+                                {
+                                    "id": "71243",
+                                    "name": "lqj-3",
+                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_3_v3.png"
+                                }
+                            ]
+                        },
+                        "message": "",
+                        "request_id": "d0b05e1d90a74500be3862d3749151e6"
+                    },
+                    "status": 200,
+                    "statusText": "",
+                    "headers": {
+                        "access-control-allow-headers": "Authorization, Content-Length, X-CSRF-Token, Token,session,user_token,Content-Type,Access-Token,Access-Token-TMP,X-Requested-With,KES-SERVICE",
+                        "access-control-allow-origin": "http://localhost:8001",
+                        "content-length": "897",
+                        "content-type": "application/json; charset=utf-8"
+                    },
+                    "config": {
+                        "transitional": {
+                            "silentJSONParsing": true,
+                            "forcedJSONParsing": true,
+                            "clarifyTimeoutError": false
+                        },
+                        "adapter": [
+                            "xhr",
+                            "http"
+                        ],
+                        "transformRequest": [
+                            null
+                        ],
+                        "transformResponse": [
+                            null
+                        ],
+                        "timeout": 0,
+                        "xsrfCookieName": "XSRF-TOKEN",
+                        "xsrfHeaderName": "X-XSRF-TOKEN",
+                        "maxContentLength": -1,
+                        "maxBodyLength": -1,
+                        "env": {},
+                        "headers": {
+                            "Accept": "application/json, text/plain, */*",
+                            "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
+                        },
+                        "url": " https://pre-api.welltop.tech/api/v1/avatar/face-merge/body",
+                        "method": "get",
+                        "params": {}
+                    },
+                    "request": {}
+                }
+            },
+            "zIndex": 31
+        },
+        {
+            "shape": "edge",
+            "attrs": {
+                "line": {
+                    "stroke": "#8f8f8f",
+                    "strokeWidth": 1,
+                    "strokeDasharray": "",
+                    "style": {
+                        "animation": ""
+                    }
+                }
+            },
+            "id": "e1705c01-426f-46ac-8327-a07079de20c2",
+            "zIndex": 32,
+            "source": {
+                "cell": "9cc59e46-19e1-4840-aa8b-5c7e303f73e6",
+                "port": "op-1"
+            },
+            "target": {
+                "cell": "48b7924a-afe5-411b-9333-6f7352aeb7ce",
+                "port": "ip-1"
+            }
+        },
+        {
+            "shape": "edge",
+            "attrs": {
+                "line": {
+                    "stroke": "#8f8f8f",
+                    "strokeWidth": 1,
+                    "strokeDasharray": "",
+                    "style": {
+                        "animation": ""
+                    }
+                }
+            },
+            "id": "a09b6b4d-23c1-4a93-b194-ae0ca05b6611",
+            "zIndex": 33,
+            "source": {
+                "cell": "48b7924a-afe5-411b-9333-6f7352aeb7ce",
+                "port": "op-1"
+            },
+            "target": {
+                "cell": "86ccb830-fa7d-4a27-99eb-2446b0df567e",
+                "port": "ip-1"
+            }
+        },
+        {
+            "position": {
+                "x": 2279.9999999999986,
+                "y": 850
+            },
+            "size": {
+                "width": 300,
+                "height": 300
+            },
+            "view": "react-shape-view",
+            "shape": "transformer",
+            "ports": {
+                "groups": {
+                    "input": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#d9d9d9",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "output": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#595959",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "refresh": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#8f8f8f",
+                                "r": 5
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "id": "ip-1",
+                        "group": "input"
+                    },
+                    {
+                        "id": "op-1",
+                        "group": "output"
+                    }
+                ]
+            },
+            "id": "e013d8da-7aa3-4705-962e-d72577d4d411",
+            "data": {
+                "status": "success",
+                "input": [
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5964.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1864.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3059.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1514.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1819.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1876.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6982.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8259.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5336.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5643.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9134.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9531.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/2909.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6045.png"
+                ],
+                "output": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png",
+                "overwriteInput": true,
+                "extra": {
+                    "code": "if (window._count == undefined) {\n  window._count = -1\n}\nwindow._count++\nif (window._count == input.length) {\n  window._count = 0\n}\nreturn input[window._count]"
+                }
+            },
+            "zIndex": 35
+        },
+        {
+            "shape": "edge",
+            "attrs": {
+                "line": {
+                    "stroke": "#8f8f8f",
+                    "strokeWidth": 1,
+                    "strokeDasharray": "",
+                    "style": {
+                        "animation": ""
+                    }
+                }
+            },
+            "id": "96b5a803-c5b9-4ab3-95dc-08a2f1615563",
+            "zIndex": 36,
+            "source": {
+                "cell": "4bc66a07-fff6-4a3a-a98d-8f8299702b5b",
+                "port": "op-1"
+            },
+            "target": {
+                "cell": "e013d8da-7aa3-4705-962e-d72577d4d411",
+                "port": "ip-1"
+            }
+        },
+        {
+            "position": {
+                "x": 2900,
+                "y": 650
+            },
+            "size": {
+                "width": 300,
+                "height": 300
+            },
+            "view": "react-shape-view",
+            "shape": "transformer",
+            "ports": {
+                "groups": {
+                    "input": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#d9d9d9",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "output": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#595959",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "refresh": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#8f8f8f",
+                                "r": 5
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "id": "ip-1",
+                        "group": "input"
+                    },
+                    {
+                        "id": "op-1",
+                        "group": "output"
+                    }
+                ]
+            },
+            "id": "c2aa9540-5d79-4387-9944-64c9ffa724e0",
+            "data": {
+                "status": "success",
+                "input": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png",
+                "output": {
+                    "params": {
+                        "origin_url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png",
+                        "age": -4
+                    }
+                },
+                "extra": {
+                    "code": "return {\n  params: {\n    origin_url: input,\n    age: -4\n  }\n}"
+                }
+            },
+            "zIndex": 37
+        },
+        {
+            "shape": "edge",
+            "attrs": {
+                "line": {
+                    "stroke": "#8f8f8f",
+                    "strokeWidth": 1,
+                    "strokeDasharray": "",
+                    "style": {
+                        "animation": ""
+                    }
+                }
+            },
+            "id": "351161e5-85b5-4dd3-810b-b5c79327e01c",
+            "zIndex": 38,
+            "source": {
+                "cell": "e013d8da-7aa3-4705-962e-d72577d4d411",
+                "port": "op-1"
+            },
+            "target": {
+                "cell": "c2aa9540-5d79-4387-9944-64c9ffa724e0",
+                "port": "ip-1"
+            },
+            "vertices": [
+                {
+                    "x": 2780,
+                    "y": 960
+                },
+                {
+                    "x": 2780,
+                    "y": 800
+                }
+            ]
+        },
+        {
+            "position": {
+                "x": 3461,
+                "y": 810
+            },
+            "size": {
+                "width": 420,
+                "height": 420
+            },
+            "view": "react-shape-view",
+            "shape": "api",
+            "ports": {
+                "groups": {
+                    "input": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#d9d9d9",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "output": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#595959",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "refresh": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#8f8f8f",
+                                "r": 5
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "id": "ip-1",
+                        "group": "input"
+                    },
+                    {
+                        "id": "op-1",
+                        "group": "output"
+                    }
+                ]
+            },
+            "id": "5fccd44a-7601-45df-a534-427e4ca6d5f8",
+            "data": {
+                "status": "success",
+                "input": {
+                    "url": " https://pre-api.welltop.tech/api/v1/avatar/face-merge/task/age-modify",
+                    "method": "post",
+                    "headers": {
+                        "Content-Type": "application/json",
+                        "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
+                    },
+                    "params": {
+                        "origin_url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png",
+                        "age": -4
+                    }
+                },
+                "output": {
+                    "data": {
+                        "code": 2000,
+                        "data": {
+                            "result_image_url": "https://welltop-ad.oss-cn-shanghai.aliyuncs.com/ai-face/output/231030/editing_results/age/34f3239354a3d78d5d0d6acd60837f90.jpg?OSSAccessKeyId=LTAI5t8Tihz6NCqaZfL4wUob&Expires=1714189689&Signature=%2Fulmr4puXTSA3W4bXEjOyFVs438%3D"
+                        },
+                        "message": "",
+                        "request_id": "2e7ffe1f9ef344698e5f6b16665e13bb"
+                    },
+                    "status": 200,
+                    "statusText": "",
+                    "headers": {
+                        "access-control-allow-headers": "Authorization, Content-Length, X-CSRF-Token, Token,session,user_token,Content-Type,Access-Token,Access-Token-TMP,X-Requested-With,KES-SERVICE",
+                        "access-control-allow-origin": "http://localhost:8001",
+                        "content-length": "343",
+                        "content-type": "application/json; charset=utf-8"
+                    },
+                    "config": {
+                        "transitional": {
+                            "silentJSONParsing": true,
+                            "forcedJSONParsing": true,
+                            "clarifyTimeoutError": false
+                        },
+                        "adapter": [
+                            "xhr",
+                            "http"
+                        ],
+                        "transformRequest": [
+                            null
+                        ],
+                        "transformResponse": [
+                            null
+                        ],
+                        "timeout": 0,
+                        "xsrfCookieName": "XSRF-TOKEN",
+                        "xsrfHeaderName": "X-XSRF-TOKEN",
+                        "maxContentLength": -1,
+                        "maxBodyLength": -1,
+                        "env": {},
+                        "headers": {
+                            "Accept": "application/json, text/plain, */*",
+                            "Content-Type": "application/json",
+                            "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
+                        },
+                        "url": " https://pre-api.welltop.tech/api/v1/avatar/face-merge/task/age-modify",
+                        "method": "post",
+                        "data": "{\"origin_url\":\"https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png\",\"age\":-4}"
+                    },
+                    "request": {}
+                }
+            },
+            "zIndex": 39
+        },
+        {
+            "shape": "edge",
+            "attrs": {
+                "line": {
+                    "stroke": "#8f8f8f",
+                    "strokeWidth": 1,
+                    "strokeDasharray": "",
+                    "style": {
+                        "animation": ""
+                    }
+                }
+            },
+            "id": "16fd96fc-e735-4a99-b6f4-59d99db05480",
+            "zIndex": 40,
+            "source": {
+                "cell": "c2aa9540-5d79-4387-9944-64c9ffa724e0",
+                "port": "op-1"
+            },
+            "target": {
+                "cell": "5fccd44a-7601-45df-a534-427e4ca6d5f8",
+                "port": "ip-1"
+            },
+            "vertices": [
+                {
+                    "x": 3330,
+                    "y": 800
+                },
+                {
+                    "x": 3330,
+                    "y": 1020
+                }
+            ]
+        },
+        {
+            "shape": "edge",
+            "attrs": {
+                "line": {
+                    "stroke": "#8f8f8f",
+                    "strokeWidth": 1,
+                    "strokeDasharray": "",
+                    "style": {
+                        "animation": ""
+                    }
+                }
+            },
+            "id": "50c782ce-5ae3-45bd-9a13-5f3474449960",
+            "zIndex": 41,
+            "source": {
+                "cell": "8cb7b4f5-9c30-4cdd-a461-bebbb04cdc44",
+                "port": "op-1"
+            },
+            "target": {
+                "cell": "5fccd44a-7601-45df-a534-427e4ca6d5f8",
+                "port": "ip-1"
+            },
+            "vertices": [
+                {
+                    "x": 3400,
+                    "y": -150
+                },
+                {
+                    "x": 3400,
+                    "y": 1020
+                }
+            ]
+        },
+        {
+            "position": {
+                "x": 4031,
+                "y": 820
+            },
+            "size": {
+                "width": 470,
+                "height": 400
+            },
+            "view": "react-shape-view",
+            "shape": "pass",
+            "ports": {
+                "groups": {
+                    "input": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#d9d9d9",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "output": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#595959",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "refresh": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#8f8f8f",
+                                "r": 5
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "id": "ip-1",
+                        "group": "input"
+                    },
+                    {
+                        "id": "op-1",
+                        "group": "output"
+                    }
+                ]
+            },
+            "id": "ee54a031-7778-48ee-a96d-b7ae31838d84",
+            "data": {
+                "status": "success",
+                "overwriteInput": true,
+                "input": {
+                    "data": {
+                        "code": 2000,
+                        "data": {
+                            "result_image_url": "https://welltop-ad.oss-cn-shanghai.aliyuncs.com/ai-face/output/231030/editing_results/age/34f3239354a3d78d5d0d6acd60837f90.jpg?OSSAccessKeyId=LTAI5t8Tihz6NCqaZfL4wUob&Expires=1714189689&Signature=%2Fulmr4puXTSA3W4bXEjOyFVs438%3D"
+                        },
+                        "message": "",
+                        "request_id": "2e7ffe1f9ef344698e5f6b16665e13bb"
+                    },
+                    "status": 200,
+                    "statusText": "",
+                    "headers": {
+                        "access-control-allow-headers": "Authorization, Content-Length, X-CSRF-Token, Token,session,user_token,Content-Type,Access-Token,Access-Token-TMP,X-Requested-With,KES-SERVICE",
+                        "access-control-allow-origin": "http://localhost:8001",
+                        "content-length": "343",
+                        "content-type": "application/json; charset=utf-8"
+                    },
+                    "config": {
+                        "transitional": {
+                            "silentJSONParsing": true,
+                            "forcedJSONParsing": true,
+                            "clarifyTimeoutError": false
+                        },
+                        "adapter": [
+                            "xhr",
+                            "http"
+                        ],
+                        "transformRequest": [
+                            null
+                        ],
+                        "transformResponse": [
+                            null
+                        ],
+                        "timeout": 0,
+                        "xsrfCookieName": "XSRF-TOKEN",
+                        "xsrfHeaderName": "X-XSRF-TOKEN",
+                        "maxContentLength": -1,
+                        "maxBodyLength": -1,
+                        "env": {},
+                        "headers": {
+                            "Accept": "application/json, text/plain, */*",
+                            "Content-Type": "application/json",
+                            "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
+                        },
+                        "url": " https://pre-api.welltop.tech/api/v1/avatar/face-merge/task/age-modify",
+                        "method": "post",
+                        "data": "{\"origin_url\":\"https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png\",\"age\":-4}"
+                    },
+                    "request": {}
+                },
+                "output": {
+                    "data": {
+                        "code": 2000,
+                        "data": {
+                            "result_image_url": "https://welltop-ad.oss-cn-shanghai.aliyuncs.com/ai-face/output/231030/editing_results/age/34f3239354a3d78d5d0d6acd60837f90.jpg?OSSAccessKeyId=LTAI5t8Tihz6NCqaZfL4wUob&Expires=1714189689&Signature=%2Fulmr4puXTSA3W4bXEjOyFVs438%3D"
+                        },
+                        "message": "",
+                        "request_id": "2e7ffe1f9ef344698e5f6b16665e13bb"
+                    },
+                    "status": 200,
+                    "statusText": "",
+                    "headers": {
+                        "access-control-allow-headers": "Authorization, Content-Length, X-CSRF-Token, Token,session,user_token,Content-Type,Access-Token,Access-Token-TMP,X-Requested-With,KES-SERVICE",
+                        "access-control-allow-origin": "http://localhost:8001",
+                        "content-length": "343",
+                        "content-type": "application/json; charset=utf-8"
+                    },
+                    "config": {
+                        "transitional": {
+                            "silentJSONParsing": true,
+                            "forcedJSONParsing": true,
+                            "clarifyTimeoutError": false
+                        },
+                        "adapter": [
+                            "xhr",
+                            "http"
+                        ],
+                        "transformRequest": [
+                            null
+                        ],
+                        "transformResponse": [
+                            null
+                        ],
+                        "timeout": 0,
+                        "xsrfCookieName": "XSRF-TOKEN",
+                        "xsrfHeaderName": "X-XSRF-TOKEN",
+                        "maxContentLength": -1,
+                        "maxBodyLength": -1,
+                        "env": {},
+                        "headers": {
+                            "Accept": "application/json, text/plain, */*",
+                            "Content-Type": "application/json",
+                            "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
+                        },
+                        "url": " https://pre-api.welltop.tech/api/v1/avatar/face-merge/task/age-modify",
+                        "method": "post",
+                        "data": "{\"origin_url\":\"https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png\",\"age\":-4}"
+                    },
+                    "request": {}
+                }
+            },
+            "zIndex": 42
+        },
+        {
+            "shape": "edge",
+            "attrs": {
+                "line": {
+                    "stroke": "#8f8f8f",
+                    "strokeWidth": 1,
+                    "strokeDasharray": "",
+                    "style": {
+                        "animation": ""
+                    }
+                }
+            },
+            "id": "a7b7942b-425d-43c2-9879-f5f0388a21df",
+            "zIndex": 43,
+            "source": {
+                "cell": "5fccd44a-7601-45df-a534-427e4ca6d5f8",
+                "port": "op-1"
+            },
+            "target": {
+                "cell": "ee54a031-7778-48ee-a96d-b7ae31838d84",
+                "port": "ip-1"
+            }
+        },
+        {
+            "position": {
+                "x": 4610,
+                "y": 870
+            },
+            "size": {
+                "width": 300,
+                "height": 300
+            },
+            "view": "react-shape-view",
+            "shape": "transformer",
+            "ports": {
+                "groups": {
+                    "input": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#d9d9d9",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "output": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#595959",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "refresh": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#8f8f8f",
+                                "r": 5
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "id": "ip-1",
+                        "group": "input"
+                    },
+                    {
+                        "id": "op-1",
+                        "group": "output"
+                    }
+                ]
+            },
+            "id": "dbf52be2-03f3-4856-8218-193b6d53a045",
+            "data": {
+                "status": "success",
+                "input": {
+                    "data": {
+                        "code": 2000,
+                        "data": {
+                            "result_image_url": "https://welltop-ad.oss-cn-shanghai.aliyuncs.com/ai-face/output/231030/editing_results/age/34f3239354a3d78d5d0d6acd60837f90.jpg?OSSAccessKeyId=LTAI5t8Tihz6NCqaZfL4wUob&Expires=1714189689&Signature=%2Fulmr4puXTSA3W4bXEjOyFVs438%3D"
+                        },
+                        "message": "",
+                        "request_id": "2e7ffe1f9ef344698e5f6b16665e13bb"
+                    },
+                    "status": 200,
+                    "statusText": "",
+                    "headers": {
+                        "access-control-allow-headers": "Authorization, Content-Length, X-CSRF-Token, Token,session,user_token,Content-Type,Access-Token,Access-Token-TMP,X-Requested-With,KES-SERVICE",
+                        "access-control-allow-origin": "http://localhost:8001",
+                        "content-length": "343",
+                        "content-type": "application/json; charset=utf-8"
+                    },
+                    "config": {
+                        "transitional": {
+                            "silentJSONParsing": true,
+                            "forcedJSONParsing": true,
+                            "clarifyTimeoutError": false
+                        },
+                        "adapter": [
+                            "xhr",
+                            "http"
+                        ],
+                        "transformRequest": [
+                            null
+                        ],
+                        "transformResponse": [
+                            null
+                        ],
+                        "timeout": 0,
+                        "xsrfCookieName": "XSRF-TOKEN",
+                        "xsrfHeaderName": "X-XSRF-TOKEN",
+                        "maxContentLength": -1,
+                        "maxBodyLength": -1,
+                        "env": {},
+                        "headers": {
+                            "Accept": "application/json, text/plain, */*",
+                            "Content-Type": "application/json",
+                            "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
+                        },
+                        "url": " https://pre-api.welltop.tech/api/v1/avatar/face-merge/task/age-modify",
+                        "method": "post",
+                        "data": "{\"origin_url\":\"https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png\",\"age\":-4}"
+                    },
+                    "request": {}
+                },
+                "output": [
+                    "https://welltop-ad.oss-cn-shanghai.aliyuncs.com/ai-face/output/231030/editing_results/age/34f3239354a3d78d5d0d6acd60837f90.jpg?OSSAccessKeyId=LTAI5t8Tihz6NCqaZfL4wUob&Expires=1714189689&Signature=%2Fulmr4puXTSA3W4bXEjOyFVs438%3D"
+                ],
+                "overwriteInput": true,
+                "extra": {
+                    "code": "return [input.data.data.result_image_url]"
+                }
+            },
+            "zIndex": 44
+        },
+        {
+            "shape": "edge",
+            "attrs": {
+                "line": {
+                    "stroke": "#8f8f8f",
+                    "strokeWidth": 1,
+                    "strokeDasharray": "",
+                    "style": {
+                        "animation": ""
+                    }
+                }
+            },
+            "id": "37ba5e43-9c21-4fe3-9c26-c1f63a882073",
+            "zIndex": 45,
+            "source": {
+                "cell": "ee54a031-7778-48ee-a96d-b7ae31838d84",
+                "port": "op-1"
+            },
+            "target": {
+                "cell": "dbf52be2-03f3-4856-8218-193b6d53a045",
+                "port": "ip-1"
+            }
+        },
+        {
+            "position": {
+                "x": 5350,
+                "y": 490
+            },
+            "size": {
+                "width": 300,
+                "height": 300
+            },
+            "view": "react-shape-view",
+            "shape": "image_show",
+            "ports": {
+                "groups": {
+                    "input": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#d9d9d9",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "output": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#595959",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "refresh": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#8f8f8f",
+                                "r": 5
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "id": "ip-1",
+                        "group": "input"
+                    }
+                ]
+            },
+            "id": "2294efb6-de92-4b6f-a3fb-3bc1e1ac8cb8",
+            "data": {
+                "status": "success",
+                "overwriteInput": true,
+                "input": [
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png"
+                ],
+                "output": [
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png"
+                ]
+            },
+            "zIndex": 48
+        },
+        {
+            "position": {
+                "x": 3980,
+                "y": 440
+            },
+            "size": {
+                "width": 300,
+                "height": 300
+            },
+            "view": "react-shape-view",
+            "shape": "transformer",
+            "ports": {
+                "groups": {
+                    "input": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#d9d9d9",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "output": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#595959",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "refresh": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#8f8f8f",
+                                "r": 5
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "id": "ip-1",
+                        "group": "input"
+                    },
+                    {
+                        "id": "op-1",
+                        "group": "output"
+                    }
+                ]
+            },
+            "id": "d289259a-4e38-4e2d-9106-5b60a905a12a",
+            "data": {
+                "status": "success",
+                "input": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png",
+                "output": [
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png"
+                ],
+                "extra": {
+                    "code": "return [input]"
+                }
+            },
+            "zIndex": 49
+        },
+        {
+            "shape": "edge",
+            "attrs": {
+                "line": {
+                    "stroke": "#8f8f8f",
+                    "strokeWidth": 1,
+                    "strokeDasharray": "",
+                    "style": {
+                        "animation": ""
+                    }
+                }
+            },
+            "id": "f271597f-e294-4f4e-bf52-43d7b37a0ffa",
+            "zIndex": 50,
+            "source": {
+                "cell": "e013d8da-7aa3-4705-962e-d72577d4d411",
+                "port": "op-1"
+            },
+            "target": {
+                "cell": "d289259a-4e38-4e2d-9106-5b60a905a12a",
+                "port": "ip-1"
+            },
+            "vertices": [
+                {
+                    "x": 2580,
+                    "y": 590
+                }
+            ]
+        },
+        {
+            "shape": "edge",
+            "attrs": {
+                "line": {
+                    "stroke": "#8f8f8f",
+                    "strokeWidth": 1,
+                    "strokeDasharray": "",
+                    "style": {
+                        "animation": ""
+                    }
+                }
+            },
+            "id": "4c6dae40-fe18-44ad-a880-bd1d9254f288",
+            "zIndex": 51,
+            "source": {
+                "cell": "d289259a-4e38-4e2d-9106-5b60a905a12a",
+                "port": "op-1"
+            },
+            "target": {
+                "cell": "2294efb6-de92-4b6f-a3fb-3bc1e1ac8cb8",
+                "port": "ip-1"
+            }
+        },
+        {
+            "position": {
+                "x": 1920,
+                "y": 380
+            },
+            "size": {
+                "width": 200,
+                "height": 200
+            },
+            "view": "react-shape-view",
+            "shape": "timer",
+            "ports": {
+                "groups": {
+                    "input": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#d9d9d9",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "output": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#595959",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "refresh": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#8f8f8f",
+                                "r": 5
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "id": "ip-1",
+                        "group": "input"
+                    },
+                    {
+                        "id": "op-1",
+                        "group": "output"
+                    }
+                ]
+            },
+            "id": "5d6c0215-527f-4be4-ada3-0b63b36360ed",
+            "data": {
+                "status": "processing",
+                "overwriteInput": true,
+                "input": [
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5964.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1864.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3059.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1514.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1819.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1876.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6982.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8259.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5336.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5643.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9134.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9531.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/2909.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6045.png"
+                ],
+                "extra": {
+                    "time": 6
+                },
+                "output": [
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5964.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1864.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3059.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1514.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1819.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1876.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6982.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8259.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5336.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5643.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9134.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9531.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/2909.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6045.png"
+                ]
+            },
+            "zIndex": 52
+        },
+        {
+            "shape": "edge",
+            "attrs": {
+                "line": {
+                    "stroke": "#8f8f8f",
+                    "strokeWidth": 1,
+                    "strokeDasharray": 5,
+                    "style": {
+                        "animation": "running-line 30s infinite linear"
+                    }
+                }
+            },
+            "id": "93ad9143-351e-4c99-9dea-43847cd2d719",
+            "zIndex": 53,
+            "source": {
+                "cell": "4bc66a07-fff6-4a3a-a98d-8f8299702b5b",
+                "port": "op-1"
+            },
+            "target": {
+                "cell": "5d6c0215-527f-4be4-ada3-0b63b36360ed",
+                "port": "ip-1"
+            },
+            "vertices": [
+                {
+                    "x": 2270,
+                    "y": 780
+                },
+                {
+                    "x": 2270,
+                    "y": 330
+                },
+                {
+                    "x": 1880,
+                    "y": 330
+                },
+                {
+                    "x": 1880,
+                    "y": 480
+                }
+            ]
+        },
+        {
+            "shape": "edge",
+            "attrs": {
+                "line": {
+                    "stroke": "#8f8f8f",
+                    "strokeWidth": 1,
+                    "strokeDasharray": "",
+                    "style": {
+                        "animation": ""
+                    }
+                }
+            },
+            "id": "0f6c6fe2-9f77-4e93-9c6d-9b8920870135",
+            "zIndex": 54,
+            "source": {
+                "cell": "5d6c0215-527f-4be4-ada3-0b63b36360ed",
+                "port": "op-1"
+            },
+            "target": {
+                "cell": "4bc66a07-fff6-4a3a-a98d-8f8299702b5b",
+                "port": "ip-1"
+            },
+            "vertices": [
+                {
+                    "x": 2190,
+                    "y": 480
+                },
+                {
+                    "x": 2190,
+                    "y": 630
+                },
+                {
+                    "x": 1850,
+                    "y": 630
+                },
+                {
+                    "x": 1850,
+                    "y": 780
+                }
+            ]
+        },
+        {
+            "position": {
+                "x": 5363,
+                "y": 870
+            },
+            "size": {
+                "width": 300,
+                "height": 300
+            },
+            "view": "react-shape-view",
+            "shape": "image_show",
+            "ports": {
+                "groups": {
+                    "input": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#d9d9d9",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "output": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#595959",
+                                "r": 8
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    },
+                    "refresh": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "magnet": true,
+                                "stroke": "#8f8f8f",
+                                "r": 5
+                            },
+                            "text": {
+                                "fontSize": 12,
+                                "fill": "#888"
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "id": "ip-1",
+                        "group": "input"
+                    }
+                ]
+            },
+            "id": "42c400d0-0e9b-44b6-a3e7-521c1ad8413f",
+            "data": {
+                "status": "success",
+                "overwriteInput": true,
+                "input": [
+                    "https://welltop-ad.oss-cn-shanghai.aliyuncs.com/ai-face/output/231030/editing_results/age/34f3239354a3d78d5d0d6acd60837f90.jpg?OSSAccessKeyId=LTAI5t8Tihz6NCqaZfL4wUob&Expires=1714189689&Signature=%2Fulmr4puXTSA3W4bXEjOyFVs438%3D"
+                ],
+                "output": [
+                    "https://welltop-ad.oss-cn-shanghai.aliyuncs.com/ai-face/output/231030/editing_results/age/34f3239354a3d78d5d0d6acd60837f90.jpg?OSSAccessKeyId=LTAI5t8Tihz6NCqaZfL4wUob&Expires=1714189689&Signature=%2Fulmr4puXTSA3W4bXEjOyFVs438%3D"
+                ]
+            },
+            "zIndex": 55
+        },
+        {
+            "shape": "edge",
+            "attrs": {
+                "line": {
+                    "stroke": "#8f8f8f",
+                    "strokeWidth": 1,
+                    "strokeDasharray": "",
+                    "style": {
+                        "animation": ""
+                    }
+                }
+            },
+            "id": "46c50fc2-1905-4384-b147-a269c788a061",
+            "source": {
+                "cell": "dbf52be2-03f3-4856-8218-193b6d53a045",
+                "port": "op-1"
+            },
+            "target": {
+                "cell": "42c400d0-0e9b-44b6-a3e7-521c1ad8413f",
+                "port": "ip-1"
+            },
+            "zIndex": 56
+        }
+    ]
+}

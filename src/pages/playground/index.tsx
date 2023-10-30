@@ -12,6 +12,7 @@ import ImageShow from "@/components/imageShow";
 import { CloudDownloadOutlined, CloudUploadOutlined } from "@ant-design/icons";
 import Group from "@/components/group";
 import Timer from "@/components/timer";
+import demo from "./demo.json";
 
 function saveTextAsFile(textToSave: string, fileName: string) {
   // 创建一个 Blob 对象，将文本内容放入其中
@@ -124,6 +125,18 @@ export default function Playground() {
             }}
           >
             重做
+          </Button>
+          <Button
+            type="dashed"
+            onClick={async () => {
+              try {
+                freeClientRef.current?.fromJSON(demo);
+              } catch {
+                message.error("加载失败，请检查内容格式");
+              }
+            }}
+          >
+            DEMO
           </Button>
           <Button
             type="primary"
