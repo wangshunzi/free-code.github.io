@@ -74,7 +74,7 @@ Login.data = {
   status: "pending",
   input: {
     email: "shunzi.wang@welltop.cn",
-    password: "4UJHCZ",
+    password: "4UJH",
   },
 };
 
