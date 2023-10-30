@@ -7,4 +7,5 @@ export default defineConfig({
   ],
   npmClient: "pnpm",
   publicPath: "/free-code.github.io/",
+  history: { type: "hash" },
 });
