@@ -12,19 +12,23 @@
 		}
 	},
 
-	// Set *default* container specific settings.json values on container create.
-	"settings": {},
-
-	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": [
-		"esbenp.prettier-vscode",
-		"dbaeumer.vscode-eslint",
-		"svelte.svelte-vscode",
-		"octref.vetur"
-	],
-
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
+	"customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+				"dbaeumer.vscode-eslint",
+				"stylelint.vscode-stylelint",
+				"robertz.code-snapshot",
+				"hediet.vscode-drawio",
+				"aaron-bond.better-comments",
+				"ExodiusStudios.comment-anchors",
+				"ms-azuretools.vscode-docker",
+				"eamodio.gitlens",
+				"mutantdino.resourcemonitor"
+			]
+    }
+  },
+  "features": {},
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "sudo npm i -g pnpm && pnpm i",
