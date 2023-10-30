@@ -14,6 +14,11 @@ const printInput = (data: any) => {
     case "string":
       return `"${data}"`;
     case "object": {
+      if (data === null || data === undefined) return data;
+      if (Array.isArray(data)) {
+        const str: string = data.map((i) => printInput(i)).join(",\n");
+        return `[\n ${str}]`;
+      }
       const kv_list = Object.entries(data);
       const kv_str: string = kv_list
         .map(([key, value]) => {
@@ -32,6 +37,15 @@ const printInput = (data: any) => {
   }
 };
 
+const printType = (data: any) => {
+  if (typeof data !== "object") {
+    return typeof data;
+  }
+  if (data === null) return "null";
+  if (data === undefined) return "undefined";
+  if (Array.isArray(data)) return "array";
+  return "object";
+};
 const PassThrough: TComponent<any, any> = ({ node, graph }) => {
   const data = node.getData() as IStencilData<any, any>;
 
@@ -41,7 +55,8 @@ const PassThrough: TComponent<any, any> = ({ node, graph }) => {
         {data.input != undefined ? (
           <div className={style.container}>
             <div className={style.item}>
-              数据类型: <span className={style.value}>{typeof data.input}</span>
+              数据类型:{" "}
+              <span className={style.value}>{printType(data.input)}</span>
             </div>
             <div className={style.item}>
               数据内容:

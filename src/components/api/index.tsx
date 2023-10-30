@@ -2,7 +2,7 @@ import { PortTemplate } from "@/free-lib";
 import { IStencilData, TComponent } from "@/free-lib/type";
 import StatusWrapper from "../common/statusWrapper";
 import style from "./index.less";
-import { Button, Form, Input, Radio, Space } from "antd";
+import { Button, Form, Input, Radio, Space, message } from "antd";
 import { CloseOutlined } from "@ant-design/icons";
 import axios from "axios";
 import { useEffect, useRef } from "react";
@@ -191,14 +191,22 @@ Api.size = [420, 420];
 Api.thumnail = PlaceholderThumnail("接口组件");
 
 Api.executor = (input, extra) => {
-  console.log("执行了", input);
-  return request(input);
+  return new Promise((resolve, reject) => {
+    request(input).then((res) => {
+      if (res.status == 200) {
+        resolve(res.data);
+      } else {
+        message.error("网络请求错误");
+        reject(res.statusText);
+      }
+    });
+  });
 };
 
 Api.data = {
   status: "pending",
   input: {
-    url: "http://pre-api.welltop.cn",
+    url: "https://pre-api.welltop.tech",
     method: "post",
     headers: {
       "Content-Type": "application/json",

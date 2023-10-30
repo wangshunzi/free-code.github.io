@@ -72,7 +72,7 @@
                 },
                 "output": {
                     "name": "王顺子",
-                    "token": "c31ba073-ae13-4eb8-82e2-49678f16360c",
+                    "token": "0e6d1903-48ee-4741-9588-f2ff725077b7",
                     "role": "internal"
                 }
             },
@@ -151,12 +151,12 @@
                 "overwriteInput": true,
                 "input": {
                     "name": "王顺子",
-                    "token": "c31ba073-ae13-4eb8-82e2-49678f16360c",
+                    "token": "0e6d1903-48ee-4741-9588-f2ff725077b7",
                     "role": "internal"
                 },
                 "output": {
                     "name": "王顺子",
-                    "token": "c31ba073-ae13-4eb8-82e2-49678f16360c",
+                    "token": "0e6d1903-48ee-4741-9588-f2ff725077b7",
                     "role": "internal"
                 }
             },
@@ -257,12 +257,12 @@
                 "status": "success",
                 "input": {
                     "name": "王顺子",
-                    "token": "c31ba073-ae13-4eb8-82e2-49678f16360c",
+                    "token": "0e6d1903-48ee-4741-9588-f2ff725077b7",
                     "role": "internal"
                 },
                 "output": {
                     "headers": {
-                        "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
+                        "Access-Token": "0e6d1903-48ee-4741-9588-f2ff725077b7"
                     }
                 },
                 "extra": {
@@ -367,12 +367,12 @@
                 "overwriteInput": true,
                 "input": {
                     "headers": {
-                        "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
+                        "Access-Token": "0e6d1903-48ee-4741-9588-f2ff725077b7"
                     }
                 },
                 "output": {
                     "headers": {
-                        "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
+                        "Access-Token": "0e6d1903-48ee-4741-9588-f2ff725077b7"
                     }
                 }
             },
@@ -476,138 +476,95 @@
                     "method": "get",
                     "headers": {
                         "Content-Type": "application/json",
-                        "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
+                        "Access-Token": "0e6d1903-48ee-4741-9588-f2ff725077b7"
                     },
                     "params": {
                         "style": "wanghong"
                     }
                 },
                 "output": {
+                    "code": 2000,
                     "data": {
-                        "code": 2000,
-                        "data": {
-                            "list": [
-                                {
-                                    "id": "5964",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5964.png"
-                                },
-                                {
-                                    "id": "1864",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1864.png"
-                                },
-                                {
-                                    "id": "3059",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3059.png"
-                                },
-                                {
-                                    "id": "1514",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1514.png"
-                                },
-                                {
-                                    "id": "1819",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1819.png"
-                                },
-                                {
-                                    "id": "1876",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1876.png"
-                                },
-                                {
-                                    "id": "6982",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6982.png"
-                                },
-                                {
-                                    "id": "8259",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8259.png"
-                                },
-                                {
-                                    "id": "5336",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5336.png"
-                                },
-                                {
-                                    "id": "5643",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5643.png"
-                                },
-                                {
-                                    "id": "385",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png"
-                                },
-                                {
-                                    "id": "9134",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9134.png"
-                                },
-                                {
-                                    "id": "9531",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9531.png"
-                                },
-                                {
-                                    "id": "2909",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/2909.png"
-                                },
-                                {
-                                    "id": "6045",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6045.png"
-                                }
-                            ]
-                        },
-                        "message": "",
-                        "request_id": "2b49a6364ae147a5b745279f5707caca"
+                        "list": [
+                            {
+                                "id": "7931",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/7931.png"
+                            },
+                            {
+                                "id": "9594",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9594.png"
+                            },
+                            {
+                                "id": "7913",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/7913.png"
+                            },
+                            {
+                                "id": "6156",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6156.png"
+                            },
+                            {
+                                "id": "4881",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/4881.png"
+                            },
+                            {
+                                "id": "8270",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8270.png"
+                            },
+                            {
+                                "id": "9199",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9199.png"
+                            },
+                            {
+                                "id": "6525",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6525.png"
+                            },
+                            {
+                                "id": "8970",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8970.png"
+                            },
+                            {
+                                "id": "8587",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8587.png"
+                            },
+                            {
+                                "id": "8318",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8318.png"
+                            },
+                            {
+                                "id": "3319",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3319.png"
+                            },
+                            {
+                                "id": "4153",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/4153.png"
+                            },
+                            {
+                                "id": "9120",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9120.png"
+                            },
+                            {
+                                "id": "684",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/684.png"
+                            }
+                        ]
                     },
-                    "status": 200,
-                    "statusText": "",
-                    "headers": {
-                        "access-control-allow-headers": "Authorization, Content-Length, X-CSRF-Token, Token,session,user_token,Content-Type,Access-Token,Access-Token-TMP,X-Requested-With,KES-SERVICE",
-                        "access-control-allow-origin": "http://localhost:8001",
-                        "content-length": "1785",
-                        "content-type": "application/json; charset=utf-8"
-                    },
-                    "config": {
-                        "transitional": {
-                            "silentJSONParsing": true,
-                            "forcedJSONParsing": true,
-                            "clarifyTimeoutError": false
-                        },
-                        "adapter": [
-                            "xhr",
-                            "http"
-                        ],
-                        "transformRequest": [
-                            null
-                        ],
-                        "transformResponse": [
-                            null
-                        ],
-                        "timeout": 0,
-                        "xsrfCookieName": "XSRF-TOKEN",
-                        "xsrfHeaderName": "X-XSRF-TOKEN",
-                        "maxContentLength": -1,
-                        "maxBodyLength": -1,
-                        "env": {},
-                        "headers": {
-                            "Accept": "application/json, text/plain, */*",
-                            "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
-                        },
-                        "url": " https://pre-api.welltop.tech/api/v1/avatar/face-merge/random-face",
-                        "method": "get",
-                        "params": {
-                            "style": "wanghong"
-                        }
-                    },
-                    "request": {}
+                    "message": "",
+                    "request_id": "77cd550cfe6c4ca5a9af0dcc1a4ceb4b"
                 }
             },
             "zIndex": 8
@@ -725,258 +682,172 @@
                 "status": "success",
                 "overwriteInput": true,
                 "input": {
+                    "code": 2000,
                     "data": {
-                        "code": 2000,
-                        "data": {
-                            "list": [
-                                {
-                                    "id": "5964",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5964.png"
-                                },
-                                {
-                                    "id": "1864",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1864.png"
-                                },
-                                {
-                                    "id": "3059",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3059.png"
-                                },
-                                {
-                                    "id": "1514",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1514.png"
-                                },
-                                {
-                                    "id": "1819",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1819.png"
-                                },
-                                {
-                                    "id": "1876",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1876.png"
-                                },
-                                {
-                                    "id": "6982",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6982.png"
-                                },
-                                {
-                                    "id": "8259",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8259.png"
-                                },
-                                {
-                                    "id": "5336",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5336.png"
-                                },
-                                {
-                                    "id": "5643",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5643.png"
-                                },
-                                {
-                                    "id": "385",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png"
-                                },
-                                {
-                                    "id": "9134",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9134.png"
-                                },
-                                {
-                                    "id": "9531",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9531.png"
-                                },
-                                {
-                                    "id": "2909",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/2909.png"
-                                },
-                                {
-                                    "id": "6045",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6045.png"
-                                }
-                            ]
-                        },
-                        "message": "",
-                        "request_id": "2b49a6364ae147a5b745279f5707caca"
+                        "list": [
+                            {
+                                "id": "7931",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/7931.png"
+                            },
+                            {
+                                "id": "9594",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9594.png"
+                            },
+                            {
+                                "id": "7913",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/7913.png"
+                            },
+                            {
+                                "id": "6156",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6156.png"
+                            },
+                            {
+                                "id": "4881",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/4881.png"
+                            },
+                            {
+                                "id": "8270",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8270.png"
+                            },
+                            {
+                                "id": "9199",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9199.png"
+                            },
+                            {
+                                "id": "6525",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6525.png"
+                            },
+                            {
+                                "id": "8970",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8970.png"
+                            },
+                            {
+                                "id": "8587",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8587.png"
+                            },
+                            {
+                                "id": "8318",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8318.png"
+                            },
+                            {
+                                "id": "3319",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3319.png"
+                            },
+                            {
+                                "id": "4153",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/4153.png"
+                            },
+                            {
+                                "id": "9120",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9120.png"
+                            },
+                            {
+                                "id": "684",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/684.png"
+                            }
+                        ]
                     },
-                    "status": 200,
-                    "statusText": "",
-                    "headers": {
-                        "access-control-allow-headers": "Authorization, Content-Length, X-CSRF-Token, Token,session,user_token,Content-Type,Access-Token,Access-Token-TMP,X-Requested-With,KES-SERVICE",
-                        "access-control-allow-origin": "http://localhost:8001",
-                        "content-length": "1785",
-                        "content-type": "application/json; charset=utf-8"
-                    },
-                    "config": {
-                        "transitional": {
-                            "silentJSONParsing": true,
-                            "forcedJSONParsing": true,
-                            "clarifyTimeoutError": false
-                        },
-                        "adapter": [
-                            "xhr",
-                            "http"
-                        ],
-                        "transformRequest": [
-                            null
-                        ],
-                        "transformResponse": [
-                            null
-                        ],
-                        "timeout": 0,
-                        "xsrfCookieName": "XSRF-TOKEN",
-                        "xsrfHeaderName": "X-XSRF-TOKEN",
-                        "maxContentLength": -1,
-                        "maxBodyLength": -1,
-                        "env": {},
-                        "headers": {
-                            "Accept": "application/json, text/plain, */*",
-                            "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
-                        },
-                        "url": " https://pre-api.welltop.tech/api/v1/avatar/face-merge/random-face",
-                        "method": "get",
-                        "params": {
-                            "style": "wanghong"
-                        }
-                    },
-                    "request": {}
+                    "message": "",
+                    "request_id": "77cd550cfe6c4ca5a9af0dcc1a4ceb4b"
                 },
                 "output": {
+                    "code": 2000,
                     "data": {
-                        "code": 2000,
-                        "data": {
-                            "list": [
-                                {
-                                    "id": "5964",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5964.png"
-                                },
-                                {
-                                    "id": "1864",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1864.png"
-                                },
-                                {
-                                    "id": "3059",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3059.png"
-                                },
-                                {
-                                    "id": "1514",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1514.png"
-                                },
-                                {
-                                    "id": "1819",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1819.png"
-                                },
-                                {
-                                    "id": "1876",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1876.png"
-                                },
-                                {
-                                    "id": "6982",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6982.png"
-                                },
-                                {
-                                    "id": "8259",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8259.png"
-                                },
-                                {
-                                    "id": "5336",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5336.png"
-                                },
-                                {
-                                    "id": "5643",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5643.png"
-                                },
-                                {
-                                    "id": "385",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png"
-                                },
-                                {
-                                    "id": "9134",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9134.png"
-                                },
-                                {
-                                    "id": "9531",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9531.png"
-                                },
-                                {
-                                    "id": "2909",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/2909.png"
-                                },
-                                {
-                                    "id": "6045",
-                                    "style": "wanghong",
-                                    "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6045.png"
-                                }
-                            ]
-                        },
-                        "message": "",
-                        "request_id": "2b49a6364ae147a5b745279f5707caca"
+                        "list": [
+                            {
+                                "id": "7931",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/7931.png"
+                            },
+                            {
+                                "id": "9594",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9594.png"
+                            },
+                            {
+                                "id": "7913",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/7913.png"
+                            },
+                            {
+                                "id": "6156",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6156.png"
+                            },
+                            {
+                                "id": "4881",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/4881.png"
+                            },
+                            {
+                                "id": "8270",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8270.png"
+                            },
+                            {
+                                "id": "9199",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9199.png"
+                            },
+                            {
+                                "id": "6525",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6525.png"
+                            },
+                            {
+                                "id": "8970",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8970.png"
+                            },
+                            {
+                                "id": "8587",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8587.png"
+                            },
+                            {
+                                "id": "8318",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8318.png"
+                            },
+                            {
+                                "id": "3319",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3319.png"
+                            },
+                            {
+                                "id": "4153",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/4153.png"
+                            },
+                            {
+                                "id": "9120",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9120.png"
+                            },
+                            {
+                                "id": "684",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/684.png"
+                            }
+                        ]
                     },
-                    "status": 200,
-                    "statusText": "",
-                    "headers": {
-                        "access-control-allow-headers": "Authorization, Content-Length, X-CSRF-Token, Token,session,user_token,Content-Type,Access-Token,Access-Token-TMP,X-Requested-With,KES-SERVICE",
-                        "access-control-allow-origin": "http://localhost:8001",
-                        "content-length": "1785",
-                        "content-type": "application/json; charset=utf-8"
-                    },
-                    "config": {
-                        "transitional": {
-                            "silentJSONParsing": true,
-                            "forcedJSONParsing": true,
-                            "clarifyTimeoutError": false
-                        },
-                        "adapter": [
-                            "xhr",
-                            "http"
-                        ],
-                        "transformRequest": [
-                            null
-                        ],
-                        "transformResponse": [
-                            null
-                        ],
-                        "timeout": 0,
-                        "xsrfCookieName": "XSRF-TOKEN",
-                        "xsrfHeaderName": "X-XSRF-TOKEN",
-                        "maxContentLength": -1,
-                        "maxBodyLength": -1,
-                        "env": {},
-                        "headers": {
-                            "Accept": "application/json, text/plain, */*",
-                            "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
-                        },
-                        "url": " https://pre-api.welltop.tech/api/v1/avatar/face-merge/random-face",
-                        "method": "get",
-                        "params": {
-                            "style": "wanghong"
-                        }
-                    },
-                    "request": {}
+                    "message": "",
+                    "request_id": "77cd550cfe6c4ca5a9af0dcc1a4ceb4b"
                 }
             },
             "zIndex": 10
@@ -1157,7 +1028,84 @@
                             ]
                         },
                         "message": "",
-                        "request_id": "2b49a6364ae147a5b745279f5707caca"
+                        "request_id": "2b49a6364ae147a5b745279f5707caca",
+                        "list": [
+                            {
+                                "id": "7931",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/7931.png"
+                            },
+                            {
+                                "id": "9594",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9594.png"
+                            },
+                            {
+                                "id": "7913",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/7913.png"
+                            },
+                            {
+                                "id": "6156",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6156.png"
+                            },
+                            {
+                                "id": "4881",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/4881.png"
+                            },
+                            {
+                                "id": "8270",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8270.png"
+                            },
+                            {
+                                "id": "9199",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9199.png"
+                            },
+                            {
+                                "id": "6525",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6525.png"
+                            },
+                            {
+                                "id": "8970",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8970.png"
+                            },
+                            {
+                                "id": "8587",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8587.png"
+                            },
+                            {
+                                "id": "8318",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8318.png"
+                            },
+                            {
+                                "id": "3319",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3319.png"
+                            },
+                            {
+                                "id": "4153",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/4153.png"
+                            },
+                            {
+                                "id": "9120",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9120.png"
+                            },
+                            {
+                                "id": "684",
+                                "style": "wanghong",
+                                "url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/684.png"
+                            }
+                        ]
                     },
                     "status": 200,
                     "statusText": "",
@@ -1199,27 +1147,30 @@
                             "style": "wanghong"
                         }
                     },
-                    "request": {}
+                    "request": {},
+                    "code": 2000,
+                    "message": "",
+                    "request_id": "77cd550cfe6c4ca5a9af0dcc1a4ceb4b"
                 },
                 "output": [
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5964.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1864.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3059.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1514.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1819.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1876.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6982.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8259.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5336.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5643.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9134.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9531.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/2909.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6045.png"
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/7931.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9594.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/7913.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6156.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/4881.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8270.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9199.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6525.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8970.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8587.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8318.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3319.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/4153.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9120.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/684.png"
                 ],
                 "extra": {
-                    "code": "return input.data.data.list.map(i => i.url)"
+                    "code": "return input.data.list.map(i => i.url)"
                 }
             },
             "zIndex": 12
@@ -1319,38 +1270,38 @@
                 "status": "success",
                 "overwriteInput": true,
                 "input": [
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5964.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1864.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3059.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1514.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1819.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1876.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6982.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8259.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5336.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5643.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9134.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9531.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/2909.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6045.png"
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/7931.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9594.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/7913.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6156.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/4881.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8270.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9199.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6525.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8970.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8587.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8318.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3319.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/4153.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9120.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/684.png"
                 ],
                 "output": [
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5964.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1864.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3059.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1514.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1819.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1876.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6982.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8259.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5336.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5643.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9134.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9531.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/2909.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6045.png"
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/7931.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9594.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/7913.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6156.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/4881.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8270.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9199.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6525.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8970.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8587.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8318.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3319.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/4153.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9120.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/684.png"
                 ]
             },
             "zIndex": 14
@@ -1446,38 +1397,38 @@
                 "status": "success",
                 "overwriteInput": true,
                 "input": [
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5964.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1864.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3059.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1514.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1819.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1876.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6982.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8259.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5336.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5643.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9134.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9531.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/2909.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6045.png"
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/7931.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9594.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/7913.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6156.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/4881.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8270.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9199.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6525.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8970.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8587.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8318.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3319.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/4153.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9120.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/684.png"
                 ],
                 "output": [
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5964.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1864.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3059.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1514.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1819.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1876.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6982.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8259.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5336.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5643.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9134.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9531.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/2909.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6045.png"
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/7931.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9594.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/7913.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6156.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/4881.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8270.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9199.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6525.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8970.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8587.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8318.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3319.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/4153.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9120.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/684.png"
                 ]
             },
             "zIndex": 16
@@ -1586,94 +1537,53 @@
                     "method": "get",
                     "headers": {
                         "Content-Type": "application/json",
-                        "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
+                        "Access-Token": "0e6d1903-48ee-4741-9588-f2ff725077b7"
                     },
                     "params": {}
                 },
                 "output": {
+                    "code": 2000,
                     "data": {
-                        "code": 2000,
-                        "data": {
-                            "list": [
-                                {
-                                    "id": "71237",
-                                    "name": "mrr-2",
-                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_2_v3.png"
-                                },
-                                {
-                                    "id": "71238",
-                                    "name": "xtz-1",
-                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_xtz_1_v3.png"
-                                },
-                                {
-                                    "id": "71239",
-                                    "name": "nic-1",
-                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_nic_1_v3.png"
-                                },
-                                {
-                                    "id": "71240",
-                                    "name": "lqj-2",
-                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_2_v3.png"
-                                },
-                                {
-                                    "id": "71241",
-                                    "name": "lqj-1",
-                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_1_v3.png"
-                                },
-                                {
-                                    "id": "71242",
-                                    "name": "mrr-1",
-                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_1_v3.png"
-                                },
-                                {
-                                    "id": "71243",
-                                    "name": "lqj-3",
-                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_3_v3.png"
-                                }
-                            ]
-                        },
-                        "message": "",
-                        "request_id": "d0b05e1d90a74500be3862d3749151e6"
+                        "list": [
+                            {
+                                "id": "71237",
+                                "name": "mrr-2",
+                                "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_2_v3.png"
+                            },
+                            {
+                                "id": "71238",
+                                "name": "xtz-1",
+                                "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_xtz_1_v3.png"
+                            },
+                            {
+                                "id": "71239",
+                                "name": "nic-1",
+                                "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_nic_1_v3.png"
+                            },
+                            {
+                                "id": "71240",
+                                "name": "lqj-2",
+                                "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_2_v3.png"
+                            },
+                            {
+                                "id": "71241",
+                                "name": "lqj-1",
+                                "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_1_v3.png"
+                            },
+                            {
+                                "id": "71242",
+                                "name": "mrr-1",
+                                "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_1_v3.png"
+                            },
+                            {
+                                "id": "71243",
+                                "name": "lqj-3",
+                                "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_3_v3.png"
+                            }
+                        ]
                     },
-                    "status": 200,
-                    "statusText": "",
-                    "headers": {
-                        "access-control-allow-headers": "Authorization, Content-Length, X-CSRF-Token, Token,session,user_token,Content-Type,Access-Token,Access-Token-TMP,X-Requested-With,KES-SERVICE",
-                        "access-control-allow-origin": "http://localhost:8001",
-                        "content-length": "897",
-                        "content-type": "application/json; charset=utf-8"
-                    },
-                    "config": {
-                        "transitional": {
-                            "silentJSONParsing": true,
-                            "forcedJSONParsing": true,
-                            "clarifyTimeoutError": false
-                        },
-                        "adapter": [
-                            "xhr",
-                            "http"
-                        ],
-                        "transformRequest": [
-                            null
-                        ],
-                        "transformResponse": [
-                            null
-                        ],
-                        "timeout": 0,
-                        "xsrfCookieName": "XSRF-TOKEN",
-                        "xsrfHeaderName": "X-XSRF-TOKEN",
-                        "maxContentLength": -1,
-                        "maxBodyLength": -1,
-                        "env": {},
-                        "headers": {
-                            "Accept": "application/json, text/plain, */*",
-                            "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
-                        },
-                        "url": " https://pre-api.welltop.tech/api/v1/avatar/face-merge/body",
-                        "method": "get",
-                        "params": {}
-                    },
-                    "request": {}
+                    "message": "",
+                    "request_id": "6326fadfe4e04d129a65f8a08fce0985"
                 }
             },
             "zIndex": 21
@@ -1749,89 +1659,48 @@
             "data": {
                 "status": "success",
                 "input": {
+                    "code": 2000,
                     "data": {
-                        "code": 2000,
-                        "data": {
-                            "list": [
-                                {
-                                    "id": "71237",
-                                    "name": "mrr-2",
-                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_2_v3.png"
-                                },
-                                {
-                                    "id": "71238",
-                                    "name": "xtz-1",
-                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_xtz_1_v3.png"
-                                },
-                                {
-                                    "id": "71239",
-                                    "name": "nic-1",
-                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_nic_1_v3.png"
-                                },
-                                {
-                                    "id": "71240",
-                                    "name": "lqj-2",
-                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_2_v3.png"
-                                },
-                                {
-                                    "id": "71241",
-                                    "name": "lqj-1",
-                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_1_v3.png"
-                                },
-                                {
-                                    "id": "71242",
-                                    "name": "mrr-1",
-                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_1_v3.png"
-                                },
-                                {
-                                    "id": "71243",
-                                    "name": "lqj-3",
-                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_3_v3.png"
-                                }
-                            ]
-                        },
-                        "message": "",
-                        "request_id": "d0b05e1d90a74500be3862d3749151e6"
+                        "list": [
+                            {
+                                "id": "71237",
+                                "name": "mrr-2",
+                                "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_2_v3.png"
+                            },
+                            {
+                                "id": "71238",
+                                "name": "xtz-1",
+                                "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_xtz_1_v3.png"
+                            },
+                            {
+                                "id": "71239",
+                                "name": "nic-1",
+                                "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_nic_1_v3.png"
+                            },
+                            {
+                                "id": "71240",
+                                "name": "lqj-2",
+                                "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_2_v3.png"
+                            },
+                            {
+                                "id": "71241",
+                                "name": "lqj-1",
+                                "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_1_v3.png"
+                            },
+                            {
+                                "id": "71242",
+                                "name": "mrr-1",
+                                "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_1_v3.png"
+                            },
+                            {
+                                "id": "71243",
+                                "name": "lqj-3",
+                                "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_3_v3.png"
+                            }
+                        ]
                     },
-                    "status": 200,
-                    "statusText": "",
-                    "headers": {
-                        "access-control-allow-headers": "Authorization, Content-Length, X-CSRF-Token, Token,session,user_token,Content-Type,Access-Token,Access-Token-TMP,X-Requested-With,KES-SERVICE",
-                        "access-control-allow-origin": "http://localhost:8001",
-                        "content-length": "897",
-                        "content-type": "application/json; charset=utf-8"
-                    },
-                    "config": {
-                        "transitional": {
-                            "silentJSONParsing": true,
-                            "forcedJSONParsing": true,
-                            "clarifyTimeoutError": false
-                        },
-                        "adapter": [
-                            "xhr",
-                            "http"
-                        ],
-                        "transformRequest": [
-                            null
-                        ],
-                        "transformResponse": [
-                            null
-                        ],
-                        "timeout": 0,
-                        "xsrfCookieName": "XSRF-TOKEN",
-                        "xsrfHeaderName": "X-XSRF-TOKEN",
-                        "maxContentLength": -1,
-                        "maxBodyLength": -1,
-                        "env": {},
-                        "headers": {
-                            "Accept": "application/json, text/plain, */*",
-                            "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
-                        },
-                        "url": " https://pre-api.welltop.tech/api/v1/avatar/face-merge/body",
-                        "method": "get",
-                        "params": {}
-                    },
-                    "request": {}
+                    "message": "",
+                    "request_id": "6326fadfe4e04d129a65f8a08fce0985"
                 },
                 "output": [
                     "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_2_v3.png",
@@ -1844,7 +1713,7 @@
                 ],
                 "overwriteInput": true,
                 "extra": {
-                    "code": "return input.data.data.list.map(i => i.url)"
+                    "code": "return input.data.list.map(i => i.url)"
                 }
             },
             "zIndex": 23
@@ -2188,174 +2057,92 @@
                 "status": "success",
                 "overwriteInput": true,
                 "input": {
+                    "code": 2000,
                     "data": {
-                        "code": 2000,
-                        "data": {
-                            "list": [
-                                {
-                                    "id": "71237",
-                                    "name": "mrr-2",
-                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_2_v3.png"
-                                },
-                                {
-                                    "id": "71238",
-                                    "name": "xtz-1",
-                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_xtz_1_v3.png"
-                                },
-                                {
-                                    "id": "71239",
-                                    "name": "nic-1",
-                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_nic_1_v3.png"
-                                },
-                                {
-                                    "id": "71240",
-                                    "name": "lqj-2",
-                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_2_v3.png"
-                                },
-                                {
-                                    "id": "71241",
-                                    "name": "lqj-1",
-                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_1_v3.png"
-                                },
-                                {
-                                    "id": "71242",
-                                    "name": "mrr-1",
-                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_1_v3.png"
-                                },
-                                {
-                                    "id": "71243",
-                                    "name": "lqj-3",
-                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_3_v3.png"
-                                }
-                            ]
-                        },
-                        "message": "",
-                        "request_id": "d0b05e1d90a74500be3862d3749151e6"
+                        "list": [
+                            {
+                                "id": "71237",
+                                "name": "mrr-2",
+                                "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_2_v3.png"
+                            },
+                            {
+                                "id": "71238",
+                                "name": "xtz-1",
+                                "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_xtz_1_v3.png"
+                            },
+                            {
+                                "id": "71239",
+                                "name": "nic-1",
+                                "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_nic_1_v3.png"
+                            },
+                            {
+                                "id": "71240",
+                                "name": "lqj-2",
+                                "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_2_v3.png"
+                            },
+                            {
+                                "id": "71241",
+                                "name": "lqj-1",
+                                "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_1_v3.png"
+                            },
+                            {
+                                "id": "71242",
+                                "name": "mrr-1",
+                                "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_1_v3.png"
+                            },
+                            {
+                                "id": "71243",
+                                "name": "lqj-3",
+                                "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_3_v3.png"
+                            }
+                        ]
                     },
-                    "status": 200,
-                    "statusText": "",
-                    "headers": {
-                        "access-control-allow-headers": "Authorization, Content-Length, X-CSRF-Token, Token,session,user_token,Content-Type,Access-Token,Access-Token-TMP,X-Requested-With,KES-SERVICE",
-                        "access-control-allow-origin": "http://localhost:8001",
-                        "content-length": "897",
-                        "content-type": "application/json; charset=utf-8"
-                    },
-                    "config": {
-                        "transitional": {
-                            "silentJSONParsing": true,
-                            "forcedJSONParsing": true,
-                            "clarifyTimeoutError": false
-                        },
-                        "adapter": [
-                            "xhr",
-                            "http"
-                        ],
-                        "transformRequest": [
-                            null
-                        ],
-                        "transformResponse": [
-                            null
-                        ],
-                        "timeout": 0,
-                        "xsrfCookieName": "XSRF-TOKEN",
-                        "xsrfHeaderName": "X-XSRF-TOKEN",
-                        "maxContentLength": -1,
-                        "maxBodyLength": -1,
-                        "env": {},
-                        "headers": {
-                            "Accept": "application/json, text/plain, */*",
-                            "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
-                        },
-                        "url": " https://pre-api.welltop.tech/api/v1/avatar/face-merge/body",
-                        "method": "get",
-                        "params": {}
-                    },
-                    "request": {}
+                    "message": "",
+                    "request_id": "6326fadfe4e04d129a65f8a08fce0985"
                 },
                 "output": {
+                    "code": 2000,
                     "data": {
-                        "code": 2000,
-                        "data": {
-                            "list": [
-                                {
-                                    "id": "71237",
-                                    "name": "mrr-2",
-                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_2_v3.png"
-                                },
-                                {
-                                    "id": "71238",
-                                    "name": "xtz-1",
-                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_xtz_1_v3.png"
-                                },
-                                {
-                                    "id": "71239",
-                                    "name": "nic-1",
-                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_nic_1_v3.png"
-                                },
-                                {
-                                    "id": "71240",
-                                    "name": "lqj-2",
-                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_2_v3.png"
-                                },
-                                {
-                                    "id": "71241",
-                                    "name": "lqj-1",
-                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_1_v3.png"
-                                },
-                                {
-                                    "id": "71242",
-                                    "name": "mrr-1",
-                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_1_v3.png"
-                                },
-                                {
-                                    "id": "71243",
-                                    "name": "lqj-3",
-                                    "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_3_v3.png"
-                                }
-                            ]
-                        },
-                        "message": "",
-                        "request_id": "d0b05e1d90a74500be3862d3749151e6"
+                        "list": [
+                            {
+                                "id": "71237",
+                                "name": "mrr-2",
+                                "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_2_v3.png"
+                            },
+                            {
+                                "id": "71238",
+                                "name": "xtz-1",
+                                "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_xtz_1_v3.png"
+                            },
+                            {
+                                "id": "71239",
+                                "name": "nic-1",
+                                "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_nic_1_v3.png"
+                            },
+                            {
+                                "id": "71240",
+                                "name": "lqj-2",
+                                "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_2_v3.png"
+                            },
+                            {
+                                "id": "71241",
+                                "name": "lqj-1",
+                                "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_1_v3.png"
+                            },
+                            {
+                                "id": "71242",
+                                "name": "mrr-1",
+                                "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_mrr_1_v3.png"
+                            },
+                            {
+                                "id": "71243",
+                                "name": "lqj-3",
+                                "url": "https://deviceweb.oss-cn-shanghai.aliyuncs.com/body-avatar/idol_lqj_3_v3.png"
+                            }
+                        ]
                     },
-                    "status": 200,
-                    "statusText": "",
-                    "headers": {
-                        "access-control-allow-headers": "Authorization, Content-Length, X-CSRF-Token, Token,session,user_token,Content-Type,Access-Token,Access-Token-TMP,X-Requested-With,KES-SERVICE",
-                        "access-control-allow-origin": "http://localhost:8001",
-                        "content-length": "897",
-                        "content-type": "application/json; charset=utf-8"
-                    },
-                    "config": {
-                        "transitional": {
-                            "silentJSONParsing": true,
-                            "forcedJSONParsing": true,
-                            "clarifyTimeoutError": false
-                        },
-                        "adapter": [
-                            "xhr",
-                            "http"
-                        ],
-                        "transformRequest": [
-                            null
-                        ],
-                        "transformResponse": [
-                            null
-                        ],
-                        "timeout": 0,
-                        "xsrfCookieName": "XSRF-TOKEN",
-                        "xsrfHeaderName": "X-XSRF-TOKEN",
-                        "maxContentLength": -1,
-                        "maxBodyLength": -1,
-                        "env": {},
-                        "headers": {
-                            "Accept": "application/json, text/plain, */*",
-                            "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
-                        },
-                        "url": " https://pre-api.welltop.tech/api/v1/avatar/face-merge/body",
-                        "method": "get",
-                        "params": {}
-                    },
-                    "request": {}
+                    "message": "",
+                    "request_id": "6326fadfe4e04d129a65f8a08fce0985"
                 }
             },
             "zIndex": 31
@@ -2477,23 +2264,23 @@
             "data": {
                 "status": "success",
                 "input": [
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5964.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1864.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3059.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1514.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1819.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1876.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6982.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8259.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5336.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5643.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9134.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9531.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/2909.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6045.png"
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/7931.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9594.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/7913.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6156.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/4881.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8270.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9199.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6525.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8970.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8587.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8318.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3319.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/4153.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9120.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/684.png"
                 ],
-                "output": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png",
+                "output": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9594.png",
                 "overwriteInput": true,
                 "extra": {
                     "code": "if (window._count == undefined) {\n  window._count = -1\n}\nwindow._count++\nif (window._count == input.length) {\n  window._count = 0\n}\nreturn input[window._count]"
@@ -2594,10 +2381,10 @@
             "id": "c2aa9540-5d79-4387-9944-64c9ffa724e0",
             "data": {
                 "status": "success",
-                "input": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png",
+                "input": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9594.png",
                 "output": {
                     "params": {
-                        "origin_url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png",
+                        "origin_url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9594.png",
                         "age": -4
                     }
                 },
@@ -2715,62 +2502,20 @@
                     "method": "post",
                     "headers": {
                         "Content-Type": "application/json",
-                        "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
+                        "Access-Token": "0e6d1903-48ee-4741-9588-f2ff725077b7"
                     },
                     "params": {
-                        "origin_url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png",
+                        "origin_url": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9594.png",
                         "age": -4
                     }
                 },
                 "output": {
+                    "code": 2000,
                     "data": {
-                        "code": 2000,
-                        "data": {
-                            "result_image_url": "https://welltop-ad.oss-cn-shanghai.aliyuncs.com/ai-face/output/231030/editing_results/age/34f3239354a3d78d5d0d6acd60837f90.jpg?OSSAccessKeyId=LTAI5t8Tihz6NCqaZfL4wUob&Expires=1714189689&Signature=%2Fulmr4puXTSA3W4bXEjOyFVs438%3D"
-                        },
-                        "message": "",
-                        "request_id": "2e7ffe1f9ef344698e5f6b16665e13bb"
+                        "result_image_url": "https://welltop-ad.oss-cn-shanghai.aliyuncs.com/ai-face/output/231030/editing_results/age/c7afc083e731b7a471be0e154daf0ef0.jpg?OSSAccessKeyId=LTAI5t8Tihz6NCqaZfL4wUob&Expires=1714212676&Signature=m%2F1jHq%2B2bBrCmSk0Yd7qrJdHLbs%3D"
                     },
-                    "status": 200,
-                    "statusText": "",
-                    "headers": {
-                        "access-control-allow-headers": "Authorization, Content-Length, X-CSRF-Token, Token,session,user_token,Content-Type,Access-Token,Access-Token-TMP,X-Requested-With,KES-SERVICE",
-                        "access-control-allow-origin": "http://localhost:8001",
-                        "content-length": "343",
-                        "content-type": "application/json; charset=utf-8"
-                    },
-                    "config": {
-                        "transitional": {
-                            "silentJSONParsing": true,
-                            "forcedJSONParsing": true,
-                            "clarifyTimeoutError": false
-                        },
-                        "adapter": [
-                            "xhr",
-                            "http"
-                        ],
-                        "transformRequest": [
-                            null
-                        ],
-                        "transformResponse": [
-                            null
-                        ],
-                        "timeout": 0,
-                        "xsrfCookieName": "XSRF-TOKEN",
-                        "xsrfHeaderName": "X-XSRF-TOKEN",
-                        "maxContentLength": -1,
-                        "maxBodyLength": -1,
-                        "env": {},
-                        "headers": {
-                            "Accept": "application/json, text/plain, */*",
-                            "Content-Type": "application/json",
-                            "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
-                        },
-                        "url": " https://pre-api.welltop.tech/api/v1/avatar/face-merge/task/age-modify",
-                        "method": "post",
-                        "data": "{\"origin_url\":\"https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png\",\"age\":-4}"
-                    },
-                    "request": {}
+                    "message": "",
+                    "request_id": "9f7763a101de409f995281550775d472"
                 }
             },
             "zIndex": 39
@@ -2913,104 +2658,20 @@
                 "status": "success",
                 "overwriteInput": true,
                 "input": {
+                    "code": 2000,
                     "data": {
-                        "code": 2000,
-                        "data": {
-                            "result_image_url": "https://welltop-ad.oss-cn-shanghai.aliyuncs.com/ai-face/output/231030/editing_results/age/34f3239354a3d78d5d0d6acd60837f90.jpg?OSSAccessKeyId=LTAI5t8Tihz6NCqaZfL4wUob&Expires=1714189689&Signature=%2Fulmr4puXTSA3W4bXEjOyFVs438%3D"
-                        },
-                        "message": "",
-                        "request_id": "2e7ffe1f9ef344698e5f6b16665e13bb"
+                        "result_image_url": "https://welltop-ad.oss-cn-shanghai.aliyuncs.com/ai-face/output/231030/editing_results/age/c7afc083e731b7a471be0e154daf0ef0.jpg?OSSAccessKeyId=LTAI5t8Tihz6NCqaZfL4wUob&Expires=1714212676&Signature=m%2F1jHq%2B2bBrCmSk0Yd7qrJdHLbs%3D"
                     },
-                    "status": 200,
-                    "statusText": "",
-                    "headers": {
-                        "access-control-allow-headers": "Authorization, Content-Length, X-CSRF-Token, Token,session,user_token,Content-Type,Access-Token,Access-Token-TMP,X-Requested-With,KES-SERVICE",
-                        "access-control-allow-origin": "http://localhost:8001",
-                        "content-length": "343",
-                        "content-type": "application/json; charset=utf-8"
-                    },
-                    "config": {
-                        "transitional": {
-                            "silentJSONParsing": true,
-                            "forcedJSONParsing": true,
-                            "clarifyTimeoutError": false
-                        },
-                        "adapter": [
-                            "xhr",
-                            "http"
-                        ],
-                        "transformRequest": [
-                            null
-                        ],
-                        "transformResponse": [
-                            null
-                        ],
-                        "timeout": 0,
-                        "xsrfCookieName": "XSRF-TOKEN",
-                        "xsrfHeaderName": "X-XSRF-TOKEN",
-                        "maxContentLength": -1,
-                        "maxBodyLength": -1,
-                        "env": {},
-                        "headers": {
-                            "Accept": "application/json, text/plain, */*",
-                            "Content-Type": "application/json",
-                            "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
-                        },
-                        "url": " https://pre-api.welltop.tech/api/v1/avatar/face-merge/task/age-modify",
-                        "method": "post",
-                        "data": "{\"origin_url\":\"https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png\",\"age\":-4}"
-                    },
-                    "request": {}
+                    "message": "",
+                    "request_id": "9f7763a101de409f995281550775d472"
                 },
                 "output": {
+                    "code": 2000,
                     "data": {
-                        "code": 2000,
-                        "data": {
-                            "result_image_url": "https://welltop-ad.oss-cn-shanghai.aliyuncs.com/ai-face/output/231030/editing_results/age/34f3239354a3d78d5d0d6acd60837f90.jpg?OSSAccessKeyId=LTAI5t8Tihz6NCqaZfL4wUob&Expires=1714189689&Signature=%2Fulmr4puXTSA3W4bXEjOyFVs438%3D"
-                        },
-                        "message": "",
-                        "request_id": "2e7ffe1f9ef344698e5f6b16665e13bb"
+                        "result_image_url": "https://welltop-ad.oss-cn-shanghai.aliyuncs.com/ai-face/output/231030/editing_results/age/c7afc083e731b7a471be0e154daf0ef0.jpg?OSSAccessKeyId=LTAI5t8Tihz6NCqaZfL4wUob&Expires=1714212676&Signature=m%2F1jHq%2B2bBrCmSk0Yd7qrJdHLbs%3D"
                     },
-                    "status": 200,
-                    "statusText": "",
-                    "headers": {
-                        "access-control-allow-headers": "Authorization, Content-Length, X-CSRF-Token, Token,session,user_token,Content-Type,Access-Token,Access-Token-TMP,X-Requested-With,KES-SERVICE",
-                        "access-control-allow-origin": "http://localhost:8001",
-                        "content-length": "343",
-                        "content-type": "application/json; charset=utf-8"
-                    },
-                    "config": {
-                        "transitional": {
-                            "silentJSONParsing": true,
-                            "forcedJSONParsing": true,
-                            "clarifyTimeoutError": false
-                        },
-                        "adapter": [
-                            "xhr",
-                            "http"
-                        ],
-                        "transformRequest": [
-                            null
-                        ],
-                        "transformResponse": [
-                            null
-                        ],
-                        "timeout": 0,
-                        "xsrfCookieName": "XSRF-TOKEN",
-                        "xsrfHeaderName": "X-XSRF-TOKEN",
-                        "maxContentLength": -1,
-                        "maxBodyLength": -1,
-                        "env": {},
-                        "headers": {
-                            "Accept": "application/json, text/plain, */*",
-                            "Content-Type": "application/json",
-                            "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
-                        },
-                        "url": " https://pre-api.welltop.tech/api/v1/avatar/face-merge/task/age-modify",
-                        "method": "post",
-                        "data": "{\"origin_url\":\"https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png\",\"age\":-4}"
-                    },
-                    "request": {}
+                    "message": "",
+                    "request_id": "9f7763a101de409f995281550775d472"
                 }
             },
             "zIndex": 42
@@ -3109,61 +2770,19 @@
             "data": {
                 "status": "success",
                 "input": {
+                    "code": 2000,
                     "data": {
-                        "code": 2000,
-                        "data": {
-                            "result_image_url": "https://welltop-ad.oss-cn-shanghai.aliyuncs.com/ai-face/output/231030/editing_results/age/34f3239354a3d78d5d0d6acd60837f90.jpg?OSSAccessKeyId=LTAI5t8Tihz6NCqaZfL4wUob&Expires=1714189689&Signature=%2Fulmr4puXTSA3W4bXEjOyFVs438%3D"
-                        },
-                        "message": "",
-                        "request_id": "2e7ffe1f9ef344698e5f6b16665e13bb"
+                        "result_image_url": "https://welltop-ad.oss-cn-shanghai.aliyuncs.com/ai-face/output/231030/editing_results/age/c7afc083e731b7a471be0e154daf0ef0.jpg?OSSAccessKeyId=LTAI5t8Tihz6NCqaZfL4wUob&Expires=1714212676&Signature=m%2F1jHq%2B2bBrCmSk0Yd7qrJdHLbs%3D"
                     },
-                    "status": 200,
-                    "statusText": "",
-                    "headers": {
-                        "access-control-allow-headers": "Authorization, Content-Length, X-CSRF-Token, Token,session,user_token,Content-Type,Access-Token,Access-Token-TMP,X-Requested-With,KES-SERVICE",
-                        "access-control-allow-origin": "http://localhost:8001",
-                        "content-length": "343",
-                        "content-type": "application/json; charset=utf-8"
-                    },
-                    "config": {
-                        "transitional": {
-                            "silentJSONParsing": true,
-                            "forcedJSONParsing": true,
-                            "clarifyTimeoutError": false
-                        },
-                        "adapter": [
-                            "xhr",
-                            "http"
-                        ],
-                        "transformRequest": [
-                            null
-                        ],
-                        "transformResponse": [
-                            null
-                        ],
-                        "timeout": 0,
-                        "xsrfCookieName": "XSRF-TOKEN",
-                        "xsrfHeaderName": "X-XSRF-TOKEN",
-                        "maxContentLength": -1,
-                        "maxBodyLength": -1,
-                        "env": {},
-                        "headers": {
-                            "Accept": "application/json, text/plain, */*",
-                            "Content-Type": "application/json",
-                            "Access-Token": "c31ba073-ae13-4eb8-82e2-49678f16360c"
-                        },
-                        "url": " https://pre-api.welltop.tech/api/v1/avatar/face-merge/task/age-modify",
-                        "method": "post",
-                        "data": "{\"origin_url\":\"https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png\",\"age\":-4}"
-                    },
-                    "request": {}
+                    "message": "",
+                    "request_id": "9f7763a101de409f995281550775d472"
                 },
                 "output": [
-                    "https://welltop-ad.oss-cn-shanghai.aliyuncs.com/ai-face/output/231030/editing_results/age/34f3239354a3d78d5d0d6acd60837f90.jpg?OSSAccessKeyId=LTAI5t8Tihz6NCqaZfL4wUob&Expires=1714189689&Signature=%2Fulmr4puXTSA3W4bXEjOyFVs438%3D"
+                    "https://welltop-ad.oss-cn-shanghai.aliyuncs.com/ai-face/output/231030/editing_results/age/c7afc083e731b7a471be0e154daf0ef0.jpg?OSSAccessKeyId=LTAI5t8Tihz6NCqaZfL4wUob&Expires=1714212676&Signature=m%2F1jHq%2B2bBrCmSk0Yd7qrJdHLbs%3D"
                 ],
                 "overwriteInput": true,
                 "extra": {
-                    "code": "return [input.data.data.result_image_url]"
+                    "code": "return [input.data.result_image_url]"
                 }
             },
             "zIndex": 44
@@ -3259,10 +2878,10 @@
                 "status": "success",
                 "overwriteInput": true,
                 "input": [
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png"
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9594.png"
                 ],
                 "output": [
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png"
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9594.png"
                 ]
             },
             "zIndex": 48
@@ -3337,9 +2956,9 @@
             "id": "d289259a-4e38-4e2d-9106-5b60a905a12a",
             "data": {
                 "status": "success",
-                "input": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png",
+                "input": "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9594.png",
                 "output": [
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png"
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9594.png"
                 ],
                 "extra": {
                     "code": "return [input]"
@@ -3471,41 +3090,41 @@
                 "status": "processing",
                 "overwriteInput": true,
                 "input": [
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5964.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1864.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3059.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1514.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1819.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1876.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6982.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8259.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5336.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5643.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9134.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9531.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/2909.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6045.png"
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/7931.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9594.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/7913.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6156.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/4881.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8270.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9199.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6525.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8970.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8587.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8318.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3319.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/4153.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9120.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/684.png"
                 ],
                 "extra": {
                     "time": 6
                 },
                 "output": [
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5964.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1864.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3059.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1514.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1819.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/1876.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6982.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8259.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5336.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/5643.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/385.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9134.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9531.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/2909.png",
-                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6045.png"
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/7931.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9594.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/7913.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6156.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/4881.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8270.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9199.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/6525.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8970.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8587.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/8318.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/3319.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/4153.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/9120.png",
+                    "https://campaign.welltop.tech/static/data/avatar/idol/wanghong/684.png"
                 ]
             },
             "zIndex": 52
@@ -3660,10 +3279,10 @@
                 "status": "success",
                 "overwriteInput": true,
                 "input": [
-                    "https://welltop-ad.oss-cn-shanghai.aliyuncs.com/ai-face/output/231030/editing_results/age/34f3239354a3d78d5d0d6acd60837f90.jpg?OSSAccessKeyId=LTAI5t8Tihz6NCqaZfL4wUob&Expires=1714189689&Signature=%2Fulmr4puXTSA3W4bXEjOyFVs438%3D"
+                    "https://welltop-ad.oss-cn-shanghai.aliyuncs.com/ai-face/output/231030/editing_results/age/c7afc083e731b7a471be0e154daf0ef0.jpg?OSSAccessKeyId=LTAI5t8Tihz6NCqaZfL4wUob&Expires=1714212676&Signature=m%2F1jHq%2B2bBrCmSk0Yd7qrJdHLbs%3D"
                 ],
                 "output": [
-                    "https://welltop-ad.oss-cn-shanghai.aliyuncs.com/ai-face/output/231030/editing_results/age/34f3239354a3d78d5d0d6acd60837f90.jpg?OSSAccessKeyId=LTAI5t8Tihz6NCqaZfL4wUob&Expires=1714189689&Signature=%2Fulmr4puXTSA3W4bXEjOyFVs438%3D"
+                    "https://welltop-ad.oss-cn-shanghai.aliyuncs.com/ai-face/output/231030/editing_results/age/c7afc083e731b7a471be0e154daf0ef0.jpg?OSSAccessKeyId=LTAI5t8Tihz6NCqaZfL4wUob&Expires=1714212676&Signature=m%2F1jHq%2B2bBrCmSk0Yd7qrJdHLbs%3D"
                 ]
             },
             "zIndex": 55
@@ -3681,6 +3300,7 @@
                 }
             },
             "id": "46c50fc2-1905-4384-b147-a269c788a061",
+            "zIndex": 56,
             "source": {
                 "cell": "dbf52be2-03f3-4856-8218-193b6d53a045",
                 "port": "op-1"
@@ -3688,8 +3308,7 @@
             "target": {
                 "cell": "42c400d0-0e9b-44b6-a3e7-521c1ad8413f",
                 "port": "ip-1"
-            },
-            "zIndex": 56
+            }
         }
     ]
 }
