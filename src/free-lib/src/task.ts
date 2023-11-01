@@ -152,7 +152,7 @@ export const executeTaskWithGraph = (
   const cells = graph.toJSON().cells;
 
   const startNodes: Cell.Properties[] = cells.filter((c) => {
-    if (c.shape === "edge") return false;
+    if (c.shape === "edge" || c.shape === "group") return false;
     const cell = graph.getCellById(c.id || "");
     const _info = lib.find((lc) => lc.shape == c.shape);
     if (!_info) {

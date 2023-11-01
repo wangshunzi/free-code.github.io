@@ -40,12 +40,14 @@ const DndPane: React.FC<IDndPane> = ({ graph, callback }) => {
       data: nodeInfo.data,
       ports: nodeInfo.ports,
     });
+
     dndRef.current.start(node, e.nativeEvent as any);
   };
 
+  const _filterComponents = components.filter((i) => !i.hidden);
   const groups = [
     ...new Set(
-      components.map((i) => {
+      _filterComponents.map((i) => {
         if (!i.group) {
           i.group = "其他";
         }
@@ -58,7 +60,7 @@ const DndPane: React.FC<IDndPane> = ({ graph, callback }) => {
     label: g,
     children: (
       <div className={style.section}>
-        {components
+        {_filterComponents
           .filter((c) => c.group == g)
           .map((c) => {
             return (

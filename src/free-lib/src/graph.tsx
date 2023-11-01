@@ -49,6 +49,23 @@ const __bindKeys = (graph: Graph) => {
 };
 
 const __bindEvent = (graph: Graph) => {
+  graph.on("cell:added", ({ cell }) => {
+    if (cell.shape === "group") {
+      cell.toBack();
+    }
+  });
+  graph.on("cell:click", ({ cell }) => {
+    if (cell.isNode() && cell.shape !== "group") {
+      cell.toFront();
+    }
+    if (cell.shape === "group") {
+      cell.toFront();
+      cell.children?.forEach((c) => {
+        c.toFront();
+      });
+    }
+  });
+
   graph.on("cell:mouseenter", ({ cell }) => {
     if (cell.isEdge()) {
       cell.addTools(["vertices", "segments"]);
@@ -196,12 +213,14 @@ export const createGraph = (container: HTMLDivElement) => {
     embedding: {
       enabled: true,
       findParent({ node }) {
+        if (node.shape == "group") return [];
         const bbox = node.getBBox();
         return this.getNodes().filter((node) => {
           const data = node.getData<any>();
           if (data && data.parent) {
             const targetBBox = node.getBBox();
-            return bbox.isIntersectWithRect(targetBBox);
+            return targetBBox.containsRect(bbox);
+            // return bbox.isIntersectWithRect(targetBBox);
           }
           return false;
         });

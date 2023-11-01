@@ -5,6 +5,7 @@ import { executeTaskWithGraph } from "./task";
 import { register } from "@antv/x6-react-shape";
 import { TComponent, TStencilRegister } from "../type";
 import { PortsGroupConfig } from "./commonPorts";
+import Group from "@/components/group";
 
 export class FreeClient {
   private graph: Graph;
@@ -37,6 +38,73 @@ export class FreeClient {
   undo() {
     this.graph.undo();
   }
+
+  private _getCellsGroupRect = (cells: Cell[]) => {
+    let minX = 0,
+      maxX = 0,
+      minY = 0,
+      maxY = 0;
+    const padding = 16;
+    cells.forEach((c) => {
+      if (c.isNode() && c.shape !== "group") {
+        let bbox = c.getBBox();
+        if (minX == 0 || minX > bbox.x) {
+          minX = bbox.x;
+        }
+        if (maxX == 0 || maxX < bbox.right) {
+          maxX = bbox.right;
+        }
+        if (minY == 0 || minY > bbox.top) {
+          minY = bbox.top;
+        }
+        if (maxY == 0 || maxY < bbox.bottom) {
+          maxY = bbox.bottom;
+        }
+      }
+    });
+    return {
+      position: { x: minX - padding, y: minY - 50 - padding },
+      size: {
+        width: maxX - minX + 2 * padding,
+        height: maxY - minY + 2 * padding + 50,
+      },
+    };
+  };
+
+  addSelectToGroup() {
+    if (this.graph.isSelectionEmpty()) {
+      return;
+    }
+
+    let cells: Cell[] = this.graph.getSelectedCells().filter((c) => {
+      return c.isNode() && c.shape !== "group";
+    });
+    const rect = this._getCellsGroupRect(cells);
+    if (cells.length == 0) return;
+    const groupNode = this.graph.addNode({
+      shape: "group",
+      data: Group.data,
+      x: rect.position.x,
+      y: rect.position.y,
+      width: rect.size.width,
+      height: rect.size.height,
+    });
+    groupNode.toFront();
+    cells.forEach((c) => {
+      c.toFront();
+      groupNode.addChild(c);
+    });
+    this.graph.cleanSelection();
+    this.graph.getNodes().forEach((n) => {
+      if (n.shape === "group" && (!n.children || n.children.length == 0)) {
+        this.graph.removeNode(n);
+      }
+      if (n.shape === "group" && n.children && n.children.length > 0) {
+        n.prop(this._getCellsGroupRect(n.children));
+      }
+    });
+  }
+
   onHistoryChange(cb?: (canRedo: boolean, canUndo: boolean) => void) {
     this.graph.on("history:change", () => {
       cb?.(this.graph.canRedo(), this.graph.canUndo());

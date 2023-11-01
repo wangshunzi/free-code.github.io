@@ -139,6 +139,14 @@ export default function Playground() {
             DEMO
           </Button>
           <Button
+            type="dashed"
+            onClick={() => {
+              freeClientRef.current?.addSelectToGroup();
+            }}
+          >
+            分组
+          </Button>
+          <Button
             type="primary"
             onClick={async () => {
               freeClientRef.current?.execute();

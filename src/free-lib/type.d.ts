@@ -24,6 +24,7 @@ type TComponentExtra<I, O> = {
   executor?: (input: I, extra?: { [key: string]: any }) => Promise<O | null>; // 任务执行器
   data?: IStencilData<I, O>; // 任务初始数据
   ports?: TPorts; // 组件连接桩
+  hidden?: boolean; // 是否在stencil面板隐藏
 };
 
 type TComponentProps = {
