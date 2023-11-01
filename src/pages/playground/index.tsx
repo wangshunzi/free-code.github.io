@@ -9,7 +9,16 @@ import Transformer from "@/components/transformer";
 import Args from "@/components/args";
 import Api from "@/components/api";
 import ImageShow from "@/components/imageShow";
-import { CloudDownloadOutlined, CloudUploadOutlined } from "@ant-design/icons";
+import {
+  CloudDownloadOutlined,
+  CloudUploadOutlined,
+  CompressOutlined,
+  MehOutlined,
+  NodeExpandOutlined,
+  ProjectOutlined,
+  RedoOutlined,
+  UndoOutlined,
+} from "@ant-design/icons";
 import Group from "@/components/group";
 import Timer from "@/components/timer";
 import demo from "./demo.json";
@@ -109,45 +118,44 @@ export default function Playground() {
       <div className={style.right}>
         <div className={style.bar}>
           <Button
+            size="small"
+            type="text"
+            icon={<UndoOutlined />}
             disabled={!toolStatus.canUndo}
-            type="dashed"
             onClick={async () => {
               freeClientRef.current?.undo();
             }}
           >
             撤销
           </Button>
+
           <Button
+            size="small"
+            type="text"
+            icon={<RedoOutlined />}
             disabled={!toolStatus.canRedo}
-            type="dashed"
             onClick={async () => {
               freeClientRef.current?.redo();
             }}
           >
             重做
           </Button>
+
           <Button
-            type="dashed"
+            size="small"
+            type="text"
+            icon={<ProjectOutlined />}
             onClick={async () => {
-              try {
-                freeClientRef.current?.fromJSON(demo);
-              } catch {
-                message.error("加载失败，请检查内容格式");
-              }
-            }}
-          >
-            DEMO
-          </Button>
-          <Button
-            type="dashed"
-            onClick={() => {
               freeClientRef.current?.addSelectToGroup();
             }}
           >
-            分组
+            组合
           </Button>
+
           <Button
-            type="primary"
+            icon={<NodeExpandOutlined />}
+            type="link"
+            size="small"
             onClick={async () => {
               freeClientRef.current?.execute();
             }}
@@ -187,7 +195,22 @@ export default function Playground() {
             }}
           />
 
-          <FloatButton.BackTop visibilityHeight={0} />
+          <FloatButton
+            icon={<CompressOutlined />}
+            onClick={() => {
+              freeClientRef.current?.center();
+            }}
+          />
+          <FloatButton
+            icon={<MehOutlined />}
+            onClick={() => {
+              try {
+                freeClientRef.current?.fromJSON(demo);
+              } catch {
+                message.error("加载失败，请检查内容格式");
+              }
+            }}
+          />
         </FloatButton.Group>
       </div>
     </div>

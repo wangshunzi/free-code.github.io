@@ -7,6 +7,21 @@ import { Transform } from "@antv/x6-plugin-transform";
 import { History } from "@antv/x6-plugin-history";
 
 const __bindKeys = (graph: Graph) => {
+  graph.bindKey("ctrl+a", () => {
+    graph.select(graph.getCells());
+    return false;
+  });
+
+  graph.bindKey("ctrl+z", () => {
+    graph.undo();
+    return false;
+  });
+
+  graph.bindKey("ctrl+y", () => {
+    graph.redo();
+    return false;
+  });
+
   graph.bindKey("ctrl+c", () => {
     const cells = graph.getSelectedCells();
     if (cells.length) {

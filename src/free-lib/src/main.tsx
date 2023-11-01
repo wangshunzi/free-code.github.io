@@ -39,6 +39,10 @@ export class FreeClient {
     this.graph.undo();
   }
 
+  center() {
+    this.graph.center();
+  }
+
   private _getCellsGroupRect = (cells: Cell[]) => {
     let minX = 0,
       maxX = 0,
