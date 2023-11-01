@@ -1,5 +1,6 @@
 import { Cell, Graph } from "@antv/x6";
 import { TComponent } from "../type";
+import { message } from "antd";
 
 // const doNode_bak = (
 //   node: Cell.Properties,
@@ -110,13 +111,16 @@ const doNode = (
         nextCells.forEach((_nc: any) => {
           const nc = graph.getCellById(_nc.cell);
           const nextData = nc.getData();
-          if (nextData.status === "processing") return;
+
+          if (["processing"].includes(nextData.status)) return;
           // 重写 还是 merge
           if (nextData.overwriteInput) {
             nc.setData({ ...nextData, input: res }, { overwrite: true });
           } else {
             nc.setData({ input: res });
           }
+          // 停止态，不执行，但接收前置数据
+          if (["stop"].includes(nextData.status)) return;
 
           // 判断下个cell 是否需要执行(前置节点必须全部success)
           if (
@@ -149,6 +153,10 @@ export const executeTaskWithGraph = (
   lib?: TComponent<any, any>[]
 ) => {
   if (!graph || !lib) return;
+  if (graph.getNodes().some((n) => n.getData().status == "processing")) {
+    message.warning("当前任务正在执行, 请停止后执行");
+    return;
+  }
   const cells = graph.toJSON().cells;
 
   const startNodes: Cell.Properties[] = cells.filter((c) => {

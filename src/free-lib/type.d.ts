@@ -1,7 +1,7 @@
 import { Node, Graph } from "@antv/x6";
 import { PortManager } from "@antv/x6/lib/model/port";
 
-type IStencilStatus = "pending" | "processing" | "success" | "failed";
+type IStencilStatus = "pending" | "stop" | "processing" | "success" | "failed";
 
 interface IStencilData<I, O> {
   status: IStencilStatus; // 状态

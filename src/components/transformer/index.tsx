@@ -55,6 +55,7 @@ class Transformer extends GraphBaseComponent {
         <div className={style.code}>
           <div className={style.fixed}>{"(input: any) => {"}</div>
           <Input.TextArea
+            onMouseDown={(e) => e.stopPropagation()}
             onBlur={(e) => {
               const value = this.state.content;
               const _b_code = js_beautify(value, {

@@ -43,6 +43,28 @@ export class FreeClient {
     this.graph.center();
   }
 
+  run() {
+    const lib = this.stencilRegister?.lib;
+    if (!lib) return;
+    
+    executeTaskWithGraph(this.graph, lib);
+  }
+
+  stop() {
+    // 所有执行状态的直属后续节点，改为停止态
+    this.graph.getNodes().forEach((n) => {
+      const data = n.getData();
+      if (data.status === "processing") {
+        const outEdges = this.graph.getOutgoingEdges(n);
+        outEdges?.forEach((edge) => {
+          this.graph.getCellById((edge.target as any).cell).setData({
+            status: "stop",
+          });
+        });
+      }
+    });
+  }
+
   private _getCellsGroupRect = (cells: Cell[]) => {
     let minX = 0,
       maxX = 0,
@@ -143,10 +165,5 @@ export class FreeClient {
     components.forEach((c) => {
       this.registerComponent(c);
     });
-  }
-  execute() {
-    const lib = this.stencilRegister?.lib;
-    if (!lib) return;
-    executeTaskWithGraph(this.graph, lib);
   }
 }

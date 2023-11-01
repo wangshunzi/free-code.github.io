@@ -28,6 +28,10 @@ const _styleMap: {
     border: "2px solid red",
     boxShadow: "0 0 12px 0  red",
   },
+  stop: {
+    border: "2px solid yellow",
+    boxShadow: "0 0 12px 0 yellow",
+  },
 };
 
 const StatusWrapper: React.FC<IStatusWrapper> = ({

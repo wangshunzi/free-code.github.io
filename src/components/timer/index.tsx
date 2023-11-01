@@ -2,8 +2,7 @@ import style from "./index.less";
 import StatusWrapper from "../common/statusWrapper";
 import { PortTemplate } from "@/free-lib";
 import { IStencilData, TComponent } from "@/free-lib/type";
-import { Input, InputNumber, Typography } from "antd";
-const { Paragraph } = Typography;
+import { Button, InputNumber } from "antd";
 const Timer: TComponent<any, any> = ({ node, graph }) => {
   const data = node.getData() as IStencilData<any, any>;
   let time = data.extra?.time;

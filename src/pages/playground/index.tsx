@@ -17,6 +17,7 @@ import {
   NodeExpandOutlined,
   ProjectOutlined,
   RedoOutlined,
+  StopOutlined,
   UndoOutlined,
 } from "@ant-design/icons";
 import Group from "@/components/group";
@@ -153,11 +154,22 @@ export default function Playground() {
           </Button>
 
           <Button
+            icon={<StopOutlined />}
+            type="text"
+            size="small"
+            onClick={async () => {
+              freeClientRef.current?.stop();
+            }}
+          >
+            停止
+          </Button>
+
+          <Button
             icon={<NodeExpandOutlined />}
             type="link"
             size="small"
             onClick={async () => {
-              freeClientRef.current?.execute();
+              freeClientRef.current?.run();
             }}
           >
             执行
